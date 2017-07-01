@@ -18,3 +18,9 @@ INFO:root:Caps is I Love Python Coding
 WARNING:root:User entered something other than a letter.
 INFO:root:User message: for the Love of PetE, user key: E
 INFO:root:Caps is For The Love Of Pete
+INFO:root:User message: this is fun, user key: T
+INFO:root:by letter is This Is Fun
+INFO:root:User message: who likes the Landscape, user key: Y
+INFO:root:by letter is ['W', 'h', 'o', ' ', 'L', 'i', 'k', 'e', 's', ' ', 'T', 'h', 'e', ' ', 'L', 'a', 'n', 'd', 's', 'c', 'a', 'p', 'e']
+INFO:root:User message: I am really tired, user key: R
+INFO:root:by letter is ['I', 'A', 'm', 'R', 'e', 'a', 'l', 'l', 'y', 'T', 'i', 'r', 'e', 'd']

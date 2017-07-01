@@ -55,14 +55,22 @@ class Alberti(Cipher):
         letter_key = input("Enter a single letter as a key: ").upper()
         return cls(message, letter_key)
 
-    def fix_casing(self):
-        #The cipher is more secure when the first letter of a word is caps
+    def format_message(self):
+        #Formats message to remove spaces between words to and add title caps
         cap_word = self.message.title()
-        logging.info("Caps is {}".format(cap_word))
-        return cap_word
+        by_letter = []
+        for letter in cap_word:
+            if letter == " ":
+                continue
+            else:
+                by_letter.append(letter)
+
+        logging.info("by letter is {}".format(by_letter))
+        return by_letter
 
     def encrypt_alberti(self):
         pass
+
 
     def decrypt_alberti(self):
         pass
