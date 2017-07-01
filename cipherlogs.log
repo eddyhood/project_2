@@ -1,0 +1,20 @@
+INFO:root:User submitted Hello. List created as ['H', 'e', 'l', 'l', 'o']
+INFO:root:User submitted Hello. List created as ['H', 'e', 'l', 'l', 'o']
+INFO:root:User submitted 'ddd'. List created as ['d', 'd', 'd']
+INFO:root:User submitted 'Hello'. List created as ['H', 'e', 'l', 'l', 'o']
+INFO:root:User message: Hello, user key: A
+INFO:root:User message: Sweet Applesauce, user key: H
+INFO:root:User message: neato, user key: B
+INFO:root:User tried to enter something other than a letter.
+WARNING:root:User entered something other than a letter.
+INFO:root:User message: My name is Eddy Hood, user key: B
+INFO:root:separated is ['My', 'name', 'is', 'Eddy', 'Hood']
+INFO:root:User message: my name is eduardo, user key: B
+INFO:root:User message: welcome to the jungle, user key: B
+INFO:root:User message: this is So awesome Eddy, user key: Y
+INFO:root:Caps is This Is So Awesome Eddy
+INFO:root:User message: i love python coding, user key: R
+INFO:root:Caps is I Love Python Coding
+WARNING:root:User entered something other than a letter.
+INFO:root:User message: for the Love of PetE, user key: E
+INFO:root:Caps is For The Love Of Pete
