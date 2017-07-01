@@ -24,3 +24,57 @@ INFO:root:User message: who likes the Landscape, user key: Y
 INFO:root:by letter is ['W', 'h', 'o', ' ', 'L', 'i', 'k', 'e', 's', ' ', 'T', 'h', 'e', ' ', 'L', 'a', 'n', 'd', 's', 'c', 'a', 'p', 'e']
 INFO:root:User message: I am really tired, user key: R
 INFO:root:by letter is ['I', 'A', 'm', 'R', 'e', 'a', 'l', 'l', 'y', 'T', 'i', 'r', 'e', 'd']
+INFO:root:User message: I like watermellon, user key: G
+INFO:root:by letter is ['I', 'L', 'i', 'k', 'e', 'W', 'a', 't', 'e', 'r', 'm', 'e', 'l', 'l', 'o', 'n']
+INFO:root:User message: I like seeds, user key: G
+INFO:root:by letter is ['I', 'L', 'i', 'k', 'e', 'S', 'e', 'e', 'd', 's']
+INFO:root:by letter is ['I', 'L', 'i', 'k', 'e', 'S', 'e', 'e', 'd', 's']
+INFO:root:User message: This is a cipher, user key: R
+INFO:root:by letter is ['T', 'h', 'i', 's', 'I', 's', 'A', 'C', 'i', 'p', 'h', 'e', 'r']
+INFO:root:User message: I love ciphers, user key: R
+INFO:root:by letter is ['I', 'L', 'o', 'v', 'e', 'C', 'i', 'p', 'h', 'e', 'r', 's']
+INFO:root:by letter is ['I', 'L', 'o', 'v', 'e', 'C', 'i', 'p', 'h', 'e', 'r', 's']
+INFO:root:User message: I am getting angry, user key: R
+INFO:root:by letter is ['I', 'A', 'm', 'G', 'e', 't', 't', 'i', 'n', 'g', 'A', 'n', 'g', 'r', 'y']
+INFO:root:User message: I am figuring it out, user key: R
+INFO:root:by letter is ['I', 'A', 'm', 'F', 'i', 'g', 'u', 'r', 'i', 'n', 'g', 'I', 't', 'O', 'u', 't']
+INFO:root:User message: this is good, user key: R
+INFO:root:by letter is ['T', 'h', 'i', 's', 'I', 's', 'G', 'o', 'o', 'd']
+INFO:root:User message: Carter made a spider, user key: R
+INFO:root:by letter is ['C', 'a', 'r', 't', 'e', 'r', 'M', 'a', 'd', 'e', 'A', 'S', 'p', 'i', 'd', 'e', 'r']
+INFO:root:User message: This is a good show, user key: R
+INFO:root:by letter is ['T', 'h', 'i', 's', 'I', 's', 'A', 'G', 'o', 'o', 'd', 'S', 'h', 'o', 'w']
+INFO:root:User message: Here is a Dog, user key: R
+INFO:root:by letter is ['H', 'e', 'r', 'e', 'I', 's', 'A', 'D', 'o', 'g']
+INFO:root:User message: Here is a Dog, user key: R
+INFO:root:by letter is ['H', 'e', 'r', 'e', 'I', 's', 'A', 'D', 'o', 'g']
+INFO:root:Add special characters: ['H', 'e', 'r', 'e', 'I', 's', 'A', 'D', 'o', 'g']
+INFO:root:User message: this is a good show, user key: R
+INFO:root:by letter is ['T', 'h', 'i', 's', 'I', 's', 'A', 'G', 'o', 'o', 'd', 'S', 'h', 'o', 'w']
+INFO:root:added missing is ['T', 'h', 'i', 's', 'I', 's', 'A', 'G', 'o', 'o', 'd', 'S', 'h', 'o', 'w']
+INFO:root:User message: How good is this, user key: R
+INFO:root:by letter is ['H', 'o', 'w', 'G', 'o', 'o', 'd', 'I', 's', 'T', 'h', 'i', 's']
+INFO:root:User message: How are You, user key: R
+INFO:root:by letter is ['H', 'o', 'w', 'A', 'r', 'e', 'Y', 'o', 'u']
+INFO:root:added missing is [{'H': 'FF', 'J': 'II', 'K': 'QQ', 'U': 'VV', 'W': 'XX', 'Y': 'ZZ'}, {'H': 'FF', 'J': 'II', 'K': 'QQ', 'U': 'VV', 'W': 'XX', 'Y': 'ZZ'}]
+INFO:root:User message: How are you Tody, user key: R
+INFO:root:by letter is ['H', 'o', 'w', 'A', 'r', 'e', 'Y', 'o', 'u', 'T', 'o', 'd', 'y']
+INFO:root:User message: How are you, user key: R
+INFO:root:by letter is ['H', 'o', 'w', 'A', 'r', 'e', 'Y', 'o', 'u']
+INFO:root:User message: How are you, user key: R
+INFO:root:by letter is ['H', 'o', 'w', 'A', 'r', 'e', 'Y', 'o', 'u']
+INFO:root:User message: How are you dude, user key: R
+INFO:root:by letter is ['H', 'o', 'w', 'A', 'r', 'e', 'Y', 'o', 'u', 'D', 'u', 'd', 'e']
+INFO:root:added missing is ['H', 'o', 'w', 'A', 'r', 'e', 'Y', 'o', 'u', 'D', 'u', 'd', 'e']
+INFO:root:User message: How are you , user key: R
+INFO:root:by letter is ['H', 'o', 'w', 'A', 'r', 'e', 'Y', 'o', 'u']
+INFO:root:added missing is ['H', 'o', 'w', 'A', 'r', 'e', 'Y', 'o', 'u']
+INFO:root:User message: How is Eddy today, user key: R
+INFO:root:by letter is ['H', 'o', 'w', 'I', 's', 'E', 'd', 'd', 'y', 'T', 'o', 'd', 'a', 'y']
+INFO:root:added missing is [{'H': 'FF', 'J': 'II', 'K': 'QQ', 'U': 'VV', 'W': 'XX', 'Y': 'ZZ'}, 'o', {'H': 'FF', 'J': 'II', 'K': 'QQ', 'U': 'VV', 'W': 'XX', 'Y': 'ZZ'}, 'I', 's', 'E', 'd', 'd', {'H': 'FF', 'J': 'II', 'K': 'QQ', 'U': 'VV', 'W': 'XX', 'Y': 'ZZ'}, 'T', 'o', 'd', 'a', {'H': 'FF', 'J': 'II', 'K': 'QQ', 'U': 'VV', 'W': 'XX', 'Y': 'ZZ'}]
+INFO:root:User message: How on earth, user key: R
+INFO:root:by letter is ['H', 'o', 'w', 'O', 'n', 'E', 'a', 'r', 't', 'h']
+INFO:root:added missing is ['FF', 'o', 'XX', 'O', 'n', 'E', 'a', 'r', 't', 'FF']
+INFO:root:User message: How are the flowers, user key: T
+INFO:root:by letter is ['H', 'o', 'w', 'A', 'r', 'e', 'T', 'h', 'e', 'F', 'l', 'o', 'w', 'e', 'r', 's']
+INFO:root:added missing is ['FF', 'o', 'XX', 'A', 'r', 'e', 'T', 'FF', 'e', 'F', 'l', 'o', 'XX', 'e', 'r', 's']

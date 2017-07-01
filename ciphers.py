@@ -11,7 +11,21 @@ class Cipher:
     def __init__(self, message, *args, **kwargs):
         self.message = message
 
+real_letters = ["a", "b", "c", "d", "e", "f", "g", "i", "l", "m", "n",
+                        "o", "p", "q", "r", "s", "t", "v", "x", "z",
+                        1, 2, 3, 4]
 
+encoded_letters = ["D", "L", "G", "A", "Z", "E", "N", "B", "O", "S",
+                   "F","C", "H", "T", "Y", "Q", "I", "X", "K", "V",
+                   "P", "&","M", "R"]
+
+missing = {"H":"FF",
+           "J":"II",
+           "K":"QQ",
+           "U":"VV",
+           "W":"XX",
+           "Y":"ZZ"
+           }
 class Alberti(Cipher):
     """Compares & combines two lists of letters to encode the message.
     Each time a capital letter is found in the message, the two lists
@@ -25,23 +39,6 @@ class Alberti(Cipher):
         super().__init__(message, *args, **kwargs)
         self.letter_key = letter_key
 
-        real_letters = ["a", "b", "c", "d", "e", "f", "g", "i", "l", "m", "n",
-                        "o", "p", "q", "r", "s", "t", "v", "x", "z",
-                        1, 2, 3, 4]
-
-        encoded_letters = ["D", "L", "G", "A", "Z", "E", "N", "B", "O", "S",
-                           "F","C", "H", "T", "Y", "Q", "I", "X", "K", "V",
-                           "P", "&","M", "R"]
-
-        special_characters = {
-                            "H":"FF",
-                            "J":"II",
-                            "K":"QQ",
-                            "U":"VV",
-                            "W":"XX",
-                            "Y":"ZZ"
-                            }
-
         #Check for letter in possible options
         if not letter_key in encoded_letters:
             logging.warning("User entered something other than a letter.")
@@ -51,11 +48,12 @@ class Alberti(Cipher):
 
     @classmethod
     def create_alberti(cls, *args, **kwargs):
+        #creates an instance of Alberti by getting message & key from user
         message = input("Enter a message to encrypt / decrypt: ")
         letter_key = input("Enter a single letter as a key: ").upper()
         return cls(message, letter_key)
 
-    def format_message(self):
+    def encrypt(self):
         #Formats message to remove spaces between words to and add title caps
         cap_word = self.message.title()
         by_letter = []
@@ -66,11 +64,16 @@ class Alberti(Cipher):
                 by_letter.append(letter)
 
         logging.info("by letter is {}".format(by_letter))
-        return by_letter
 
-    def encrypt_alberti(self):
-        pass
+        # replace uppercase letters with special characters
+        add_new = []
+        for letter in by_letter:
+            if letter.upper() in missing:
+                add_new.append(missing[letter.upper()])
+            else:
+                add_new.append(letter)
 
+        logging.info("added missing is {}".format(add_new))
 
-    def decrypt_alberti(self):
+    def decrypt(self):
         pass
