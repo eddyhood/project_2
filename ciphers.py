@@ -11,38 +11,41 @@ class Cipher:
     def __init__(self, message, *args, **kwargs):
         self.message = message
 
-real_letters = ["a", "b", "c", "d", "e", "f", "g", "i", "l", "m", "n",
-                        "o", "p", "q", "r", "s", "t", "v", "x", "z",
-                        1, 2, 3, 4]
 
-encoded_letters = ["D", "L", "G", "A", "Z", "E", "N", "B", "O", "S",
-                   "F","C", "H", "T", "Y", "Q", "I", "X", "K", "V",
-                   "P", "&","M", "R"]
-
-missing = {"H":"FF",
-           "J":"II",
-           "K":"QQ",
-           "U":"VV",
-           "W":"XX",
-           "Y":"ZZ"
-           }
 class Alberti(Cipher):
-    """Compares & combines two lists of letters to encode the message.
-    Each time a capital letter is found in the message, the two lists
-    are zipped together so that (x = Capital letter, Y = encoded message.)
-
-    The original cipher did not contain all letters of the alphabet so
-    some unique attributes are assigned to deal with that.
+    """Encodes a message by getting a user generated key and using it to combine both the real_letters and encoded_letters lists for a cipher
     """
+
+    message_formatted = []
+    message_with_digraph = []
+    encrpyted_message = []
+
+    real_letters = ["a", "b", "c", "d", "e", "f", "g", "i", "l", "m", "n",
+                            "o", "p", "q", "r", "s", "t", "v", "x", "z",
+                            1, 2, 3, 4]
+
+    encoded_letters = ["D", "L", "G", "A", "Z", "E", "N", "B", "O", "S",
+                       "F","C", "H", "T", "Y", "Q", "I", "X", "K", "V",
+                       "P", "&","M", "R"]
+
+    digraph = {"H":"FF",
+               "J":"II",
+               "K":"QQ",
+               "U":"VV",
+               "W":"XX",
+               "Y":"ZZ"
+               }
+
+    secret_marker = "K"
 
     def __init__(self, message, letter_key, *args, **kwargs):
         super().__init__(message, *args, **kwargs)
         self.letter_key = letter_key
 
         #Check for letter in possible options
-        if not letter_key in encoded_letters:
+        if letter_key in ["H", "J", "K", "U", "W", "Y"]:
             logging.warning("User entered something other than a letter.")
-            raise ValueError("That letter is not an option.  Please choose from the list.")
+            raise ValueError("That letter will not work.  Remember that H, J, K, U, W, and Y are not options for a key")
 
         logging.info("User message: {}, user key: {}".format(self.message, letter_key))
 
@@ -50,30 +53,39 @@ class Alberti(Cipher):
     def create_alberti(cls, *args, **kwargs):
         #creates an instance of Alberti by getting message & key from user
         message = input("Enter a message to encrypt / decrypt: ")
-        letter_key = input("Enter a single letter as a key: ").upper()
+        letter_key = input("Enter a single letter as a key.  Note that H, J, K, U, W, and Y are not options for a key: ").upper()
         return cls(message, letter_key)
 
-    def encrypt(self):
-        #Formats message to remove spaces between words to and add title caps
+    def format_alberti(self):
+        #Before you can encrypt, each word should start with a caps to make the cipher stronger.
         cap_word = self.message.title()
-        by_letter = []
         for letter in cap_word:
             if letter == " ":
                 continue
             else:
-                by_letter.append(letter)
+                self.message_formatted.append(letter)
+        logging.info("by letter is {}".format(self.message_formatted))
 
-        logging.info("by letter is {}".format(by_letter))
+    def add_digraphs(self):
+        #The cipher requires that certain letters be replaced with digraphs before the message can be encoded.
 
-        # replace uppercase letters with special characters
-        add_new = []
-        for letter in by_letter:
-            if letter.upper() in missing:
-                add_new.append(missing[letter.upper()])
+        for letter in self.message_formatted:
+            if letter.upper() in self.digraph:
+                self.message_with_digraph.append(self.digraph[letter.upper()])
             else:
-                add_new.append(letter)
+                self.message_with_digraph.append(letter)
 
-        logging.info("added missing is {}".format(add_new))
+        logging.info("With digraph is {}".format(self.message_with_digraph))
+
+    def encrypt(self):
+
+        #complete encryption
+        start_index = self.real_letters.index(self.letter_key.lower())
+        logging.info('Starting point is {}'.format(start_index))
+        pass
+
+
+
 
     def decrypt(self):
         pass

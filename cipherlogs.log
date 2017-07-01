@@ -78,3 +78,88 @@ INFO:root:added missing is ['FF', 'o', 'XX', 'O', 'n', 'E', 'a', 'r', 't', 'FF']
 INFO:root:User message: How are the flowers, user key: T
 INFO:root:by letter is ['H', 'o', 'w', 'A', 'r', 'e', 'T', 'h', 'e', 'F', 'l', 'o', 'w', 'e', 'r', 's']
 INFO:root:added missing is ['FF', 'o', 'XX', 'A', 'r', 'e', 'T', 'FF', 'e', 'F', 'l', 'o', 'XX', 'e', 'r', 's']
+INFO:root:User message: Hello to everyone, user key: R
+INFO:root:by letter is ['H', 'e', 'l', 'l', 'o', 'T', 'o', 'E', 'v', 'e', 'r', 'y', 'o', 'n', 'e']
+INFO:root:added missing is <generator object Alberti.encrypt.<locals>.<genexpr> at 0x1021e24c0>
+INFO:root:User message: Heaven is awesome, user key: R
+INFO:root:by letter is ['H', 'e', 'a', 'v', 'e', 'n', 'I', 's', 'A', 'w', 'e', 's', 'o', 'm', 'e']
+INFO:root:User message: Henry is here, user key: R
+INFO:root:by letter is ['H', 'e', 'n', 'r', 'y', 'I', 's', 'H', 'e', 'r', 'e']
+INFO:root:added missing is ['FF', 'ZZ', 'FF']
+INFO:root:User message: Henry is with us, user key: I
+INFO:root:by letter is ['H', 'e', 'n', 'r', 'y', 'I', 's', 'W', 'i', 't', 'h', 'U', 's']
+INFO:root:added missing is ['FF', 'e', 'n', 'r', 'ZZ', 'I', 's', 'XX', 'i', 't', 'FF', 'VV', 's']
+INFO:root:User message: Just kidding I think youre great, user key: E
+INFO:root:by letter is ['J', 'u', 's', 't', 'K', 'i', 'd', 'd', 'i', 'n', 'g', 'I', 'T', 'h', 'i', 'n', 'k', 'Y', 'o', 'u', 'r', 'e', 'G', 'r', 'e', 'a', 't']
+INFO:root:added digraph is ['II', 'VV', 's', 't', 'QQ', 'i', 'd', 'd', 'i', 'n', 'g', 'I', 'T', 'FF', 'i', 'n', 'QQ', 'ZZ', 'o', 'VV', 'r', 'e', 'G', 'r', 'e', 'a', 't']
+INFO:root:User message: The world turnd fast, user key: I
+INFO:root:by letter is ['T', 'h', 'e', 'W', 'o', 'r', 'l', 'd', 'T', 'u', 'r', 'n', 'd', 'F', 'a', 's', 't']
+INFO:root:added digraph is ['T', 'FF', 'e', 'XX', 'o', 'r', 'l', 'd', 'T', 'VV', 'r', 'n', 'd', 'F', 'a', 's', 't']
+INFO:root:User message: The world turnd fast, user key: I
+INFO:root:by letter is ['T', 'h', 'e', 'W', 'o', 'r', 'l', 'd', 'T', 'u', 'r', 'n', 'd', 'F', 'a', 's', 't']
+INFO:root:added digraph is ['T', 'FF', 'e', 'XX', 'o', 'r', 'l', 'd', 'T', 'VV', 'r', 'n', 'd', 'F', 'a', 's', 't']
+INFO:root:User message: The world turnd fast, user key: I
+INFO:root:by letter is ['T', 'h', 'e', 'W', 'o', 'r', 'l', 'd', 'T', 'u', 'r', 'n', 'd', 'F', 'a', 's', 't']
+INFO:root:added digraph is ['T', 'FF', 'e', 'XX', 'o', 'r', 'l', 'd', 'T', 'VV', 'r', 'n', 'd', 'F', 'a', 's', 't']
+INFO:root:User message: I love hamburgers, user key: R
+INFO:root:by letter is ['I', 'L', 'o', 'v', 'e', 'H', 'a', 'm', 'b', 'u', 'r', 'g', 'e', 'r', 's']
+INFO:root:added digraph is ['I', 'L', 'o', 'v', 'e', 'FF', 'a', 'm', 'b', 'VV', 'r', 'g', 'e', 'r', 's']
+INFO:root:User message: This is crazt talk, user key: R
+INFO:root:by letter is ['T', 'h', 'i', 's', 'I', 's', 'C', 'r', 'a', 'z', 't', 'T', 'a', 'l', 'k']
+INFO:root:added digraph is ['T', 'FF', 'i', 's', 'I', 's', 'C', 'r', 'a', 'z', 't', 'T', 'a', 'l', 'QQ']
+INFO:root:Marker Index: False Key Index False
+INFO:root:User message: Hello everyone, user key: R
+INFO:root:by letter is ['H', 'e', 'l', 'l', 'o', 'E', 'v', 'e', 'r', 'y', 'o', 'n', 'e']
+INFO:root:added digraph is ['FF', 'e', 'l', 'l', 'o', 'E', 'v', 'e', 'r', 'ZZ', 'o', 'n', 'e']
+INFO:root:Starting point is []
+INFO:root:User message: I love lucy, user key: R
+INFO:root:by letter is ['I', 'L', 'o', 'v', 'e', 'L', 'u', 'c', 'y']
+INFO:root:added digraph is ['I', 'L', 'o', 'v', 'e', 'L', 'VV', 'c', 'ZZ']
+INFO:root:Starting point is []
+INFO:root:User message: this is great, user key: E
+INFO:root:by letter is ['T', 'h', 'i', 's', 'I', 's', 'G', 'r', 'e', 'a', 't']
+INFO:root:added digraph is ['T', 'FF', 'i', 's', 'I', 's', 'G', 'r', 'e', 'a', 't']
+INFO:root:Starting point is []
+INFO:root:User message: I wear glasses, user key: R
+INFO:root:by letter is ['I', 'W', 'e', 'a', 'r', 'G', 'l', 'a', 's', 's', 'e', 's']
+INFO:root:added digraph is ['I', 'XX', 'e', 'a', 'r', 'G', 'l', 'a', 's', 's', 'e', 's']
+INFO:root:User message: I just made changes, user key: R
+INFO:root:by letter is ['I', 'J', 'u', 's', 't', 'M', 'a', 'd', 'e', 'C', 'h', 'a', 'n', 'g', 'e', 's']
+INFO:root:added digraph is ['I', 'II', 'VV', 's', 't', 'M', 'a', 'd', 'e', 'C', 'FF', 'a', 'n', 'g', 'e', 's']
+INFO:root:Starting point is <enumerate object at 0x10239be10>
+INFO:root:User message: I am almost there, user key: R
+INFO:root:by letter is ['I', 'A', 'm', 'A', 'l', 'm', 'o', 's', 't', 'T', 'h', 'e', 'r', 'e']
+INFO:root:added digraph is ['I', 'A', 'm', 'A', 'l', 'm', 'o', 's', 't', 'T', 'FF', 'e', 'r', 'e']
+INFO:root:Starting point is []
+INFO:root:User message: I love python, user key: R
+INFO:root:User message: I am trying to get this right, user key: R
+INFO:root:by letter is ['I', 'A', 'm', 'T', 'r', 'y', 'i', 'n', 'g', 'T', 'o', 'G', 'e', 't', 'T', 'h', 'i', 's', 'R', 'i', 'g', 'h', 't']
+INFO:root:With digraph is ['I', 'A', 'm', 'T', 'r', 'ZZ', 'i', 'n', 'g', 'T', 'o', 'G', 'e', 't', 'T', 'FF', 'i', 's', 'R', 'i', 'g', 'FF', 't']
+INFO:root:User message: Trying to encrypt, user key: R
+INFO:root:by letter is ['T', 'r', 'y', 'i', 'n', 'g', 'T', 'o', 'E', 'n', 'c', 'r', 'y', 'p', 't']
+INFO:root:With digraph is ['T', 'r', 'ZZ', 'i', 'n', 'g', 'T', 'o', 'E', 'n', 'c', 'r', 'ZZ', 'p', 't']
+INFO:root:User message: I am working, user key: R
+INFO:root:by letter is ['I', 'A', 'm', 'W', 'o', 'r', 'k', 'i', 'n', 'g']
+INFO:root:With digraph is ['I', 'A', 'm', 'XX', 'o', 'r', 'QQ', 'i', 'n', 'g']
+INFO:root:Starting point is []
+INFO:root:User message: I have found gold, user key: R
+INFO:root:by letter is ['I', 'H', 'a', 'v', 'e', 'F', 'o', 'u', 'n', 'd', 'G', 'o', 'l', 'd']
+INFO:root:User message: I am watching a show, user key: R
+INFO:root:by letter is ['I', 'A', 'm', 'W', 'a', 't', 'c', 'h', 'i', 'n', 'g', 'A', 'S', 'h', 'o', 'w']
+INFO:root:User message: I am getting tired, user key: E
+INFO:root:by letter is ['I', 'A', 'm', 'G', 'e', 't', 't', 'i', 'n', 'g', 'T', 'i', 'r', 'e', 'd']
+INFO:root:User message: I am hit an end, user key: R
+INFO:root:by letter is ['I', 'A', 'm', 'H', 'i', 't', 'A', 'n', 'E', 'n', 'd']
+INFO:root:User message: I am here, user key: R
+INFO:root:by letter is ['I', 'A', 'm', 'H', 'e', 'r', 'e']
+INFO:root:With digraph is ['I', 'A', 'm', 'FF', 'e', 'r', 'e']
+INFO:root:real_index<enumerate object at 0x102b7ffc0>
+INFO:root:encoded index<enumerate object at 0x102b90048>
+INFO:root:Starting point is []
+INFO:root:User message: I am eating, user key: R
+INFO:root:by letter is ['I', 'A', 'm', 'E', 'a', 't', 'i', 'n', 'g']
+INFO:root:With digraph is ['I', 'A', 'm', 'E', 'a', 't', 'i', 'n', 'g']
+INFO:root:User message: her we go, user key: R
+INFO:root:by letter is ['H', 'e', 'r', 'W', 'e', 'G', 'o']
+INFO:root:With digraph is ['FF', 'e', 'r', 'XX', 'e', 'G', 'o']
+INFO:root:Starting point is 14
