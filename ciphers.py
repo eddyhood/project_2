@@ -37,6 +37,7 @@ class Alberti(Cipher):
                }
 
     secret_marker = "K"
+    secret_marker_index = encoded_letters.index(secret_marker)
 
     def __init__(self, message, letter_key, *args, **kwargs):
         super().__init__(message, *args, **kwargs)
@@ -80,10 +81,15 @@ class Alberti(Cipher):
     def encrypt(self):
 
         #complete encryption
-        start_index = self.real_letters.index(self.letter_key.lower())
-        logging.info('Starting point is {}'.format(start_index))
-        pass
+        key_index = self.real_letters.index(self.letter_key.lower())
+        index_diff = self.secret_marker_index - key_index
+        logging.info("Starting point is: {}".format(key_index))
+        logging.info("Spin the dial by: {}".format(index_diff))
 
+        spin = self.encoded_letters[index_diff:] + self.encoded_letters[:index_diff]
+
+        logging.info("spin is {}".format(spin))
+        return spin
 
 
 

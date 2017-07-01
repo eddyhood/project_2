@@ -163,3 +163,65 @@ INFO:root:User message: her we go, user key: R
 INFO:root:by letter is ['H', 'e', 'r', 'W', 'e', 'G', 'o']
 INFO:root:With digraph is ['FF', 'e', 'r', 'XX', 'e', 'G', 'o']
 INFO:root:Starting point is 14
+INFO:root:User message: here we go, user key: R
+INFO:root:by letter is ['H', 'e', 'r', 'e', 'W', 'e', 'G', 'o']
+INFO:root:With digraph is ['FF', 'e', 'r', 'e', 'XX', 'e', 'G', 'o']
+INFO:root:Starting point is 14:
+INFO:root:New encoded list: [-14, -14, -14, -14, -14, -14, -14, -14, -14, -14, -14, -14, -14, -14, -14, -14, -14, -14, -14, -14, -14, -14, -14, -14]
+INFO:root:User message: I am getting smarter, user key: R
+INFO:root:by letter is ['I', 'A', 'm', 'G', 'e', 't', 't', 'i', 'n', 'g', 'S', 'm', 'a', 'r', 't', 'e', 'r']
+INFO:root:With digraph is ['I', 'A', 'm', 'G', 'e', 't', 't', 'i', 'n', 'g', 'S', 'm', 'a', 'r', 't', 'e', 'r']
+INFO:root:Starting point is 14:
+INFO:root:User message: This is going to work, user key: Q
+INFO:root:by letter is ['T', 'h', 'i', 's', 'I', 's', 'G', 'o', 'i', 'n', 'g', 'T', 'o', 'W', 'o', 'r', 'k']
+INFO:root:With digraph is ['T', 'FF', 'i', 's', 'I', 's', 'G', 'o', 'i', 'n', 'g', 'T', 'o', 'XX', 'o', 'r', 'QQ']
+INFO:root:Starting point is 13:
+INFO:root:New encoded list: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+INFO:root:User message: here it is again, user key: R
+INFO:root:by letter is ['H', 'e', 'r', 'e', 'I', 't', 'I', 's', 'A', 'g', 'a', 'i', 'n']
+INFO:root:With digraph is ['FF', 'e', 'r', 'e', 'I', 't', 'I', 's', 'A', 'g', 'a', 'i', 'n']
+INFO:root:Starting point is 14:
+INFO:root:New encoded list: ['F', 'C', 'H', 'T', 'Y', 'Q', 'I', 'X', 'K', 'V', 'P', '&', 'M', 'R', 'D', 'L', 'G', 'A', 'Z', 'E', 'N', 'B', 'O', 'S']
+INFO:root:User message: This is gretting nuts, user key: R
+INFO:root:by letter is ['T', 'h', 'i', 's', 'I', 's', 'G', 'r', 'e', 't', 't', 'i', 'n', 'g', 'N', 'u', 't', 's']
+INFO:root:With digraph is ['T', 'FF', 'i', 's', 'I', 's', 'G', 'r', 'e', 't', 't', 'i', 'n', 'g', 'N', 'VV', 't', 's']
+INFO:root:User message: here we go, user key: R
+INFO:root:by letter is ['H', 'e', 'r', 'e', 'W', 'e', 'G', 'o']
+INFO:root:With digraph is ['FF', 'e', 'r', 'e', 'XX', 'e', 'G', 'o']
+INFO:root:User message: try again, user key: R
+INFO:root:by letter is ['T', 'r', 'y', 'A', 'g', 'a', 'i', 'n']
+INFO:root:With digraph is ['T', 'r', 'ZZ', 'A', 'g', 'a', 'i', 'n']
+INFO:root:User message: up buttom dying, user key: R
+INFO:root:by letter is ['U', 'p', 'B', 'u', 't', 't', 'o', 'm', 'D', 'y', 'i', 'n', 'g']
+INFO:root:With digraph is ['VV', 'p', 'B', 'VV', 't', 't', 'o', 'm', 'D', 'ZZ', 'i', 'n', 'g']
+INFO:root:Starting point is: 14
+INFO:root:User message: i have nothing to say, user key: R
+INFO:root:by letter is ['I', 'H', 'a', 'v', 'e', 'N', 'o', 't', 'h', 'i', 'n', 'g', 'T', 'o', 'S', 'a', 'y']
+INFO:root:With digraph is ['I', 'FF', 'a', 'v', 'e', 'N', 'o', 't', 'FF', 'i', 'n', 'g', 'T', 'o', 'S', 'a', 'ZZ']
+INFO:root:Starting point is: 14
+INFO:root:Spin the dial by: -4
+INFO:root:New encoded list: ['P', '&', 'M', 'R', 'D', 'L', 'G', 'A', 'Z', 'E', 'N', 'B', 'O', 'S', 'F', 'C', 'H', 'T', 'Y', 'Q', 'I', 'X', 'K', 'V']
+INFO:root:User message: this is it, user key: R
+INFO:root:by letter is ['T', 'h', 'i', 's', 'I', 's', 'I', 't']
+INFO:root:With digraph is ['T', 'FF', 'i', 's', 'I', 's', 'I', 't']
+INFO:root:Starting point is: 14
+INFO:root:Spin the dial by: 4
+INFO:root:User message: this wont work, user key: R
+INFO:root:by letter is ['T', 'h', 'i', 's', 'W', 'o', 'n', 't', 'W', 'o', 'r', 'k']
+INFO:root:With digraph is ['T', 'FF', 'i', 's', 'XX', 'o', 'n', 't', 'XX', 'o', 'r', 'QQ']
+INFO:root:Starting point is: 14
+INFO:root:Spin the dial by: 4
+INFO:root:User message: We have got it, user key: R
+INFO:root:by letter is ['W', 'e', 'H', 'a', 'v', 'e', 'G', 'o', 't', 'I', 't']
+INFO:root:With digraph is ['XX', 'e', 'FF', 'a', 'v', 'e', 'G', 'o', 't', 'I', 't']
+INFO:root:User message: Here it is, user key: R
+INFO:root:by letter is ['H', 'e', 'r', 'e', 'I', 't', 'I', 's']
+INFO:root:With digraph is ['FF', 'e', 'r', 'e', 'I', 't', 'I', 's']
+INFO:root:Starting point is: 14
+INFO:root:Spin the dial by: 4
+INFO:root:User message: Lets make this wor, user key: R
+INFO:root:by letter is ['L', 'e', 't', 's', 'M', 'a', 'k', 'e', 'T', 'h', 'i', 's', 'W', 'o', 'r']
+INFO:root:With digraph is ['L', 'e', 't', 's', 'M', 'a', 'QQ', 'e', 'T', 'FF', 'i', 's', 'XX', 'o', 'r']
+INFO:root:Starting point is: 14
+INFO:root:Spin the dial by: 4
+INFO:root:spin is ['Z', 'E', 'N', 'B', 'O', 'S', 'F', 'C', 'H', 'T', 'Y', 'Q', 'I', 'X', 'K', 'V', 'P', '&', 'M', 'R', 'D', 'L', 'G', 'A']
