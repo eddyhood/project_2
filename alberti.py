@@ -66,18 +66,20 @@ class Alberti(Cipher):
     def encrypt(self):
         add_digraphs = self.add_digraphs()
         start_spin = self.spin()
-        total_spins = len(self.message) // self.shift_range
-        spin_count = 1
 
         for letter in add_digraphs:
+            if len(self.encrpyted_message) != 0 and len(self.encrpyted_message) % self.shift_range == 0:
+                start_spin = self.spin()
                 get_letter_index = self.fixed.index(letter)
                 get_coded_letter = start_spin[get_letter_index]
                 encrypt = self.encrpyted_message.append(get_coded_letter)
-        # spin_again = self.spin()
-        # spin_count += 1
+            else:
+                get_letter_index = self.fixed.index(letter)
+                get_coded_letter = start_spin[get_letter_index]
+                encrypt = self.encrpyted_message.append(get_coded_letter)
 
 
-        logging.info("Encrypted Message is: {} and total spins = {}".format(self.encrpyted_message, total_spins))
+        logging.info("Encrypted Message is: {}".format(self.encrpyted_message))
 
 
 
