@@ -26,7 +26,7 @@ class Alberti(Cipher):
                }
 
     pointer = "k"
-    shift_sequence = 5
+    shift_range = 5
 
     @classmethod
     def create_alberti(cls, *args, **kwargs):
@@ -66,15 +66,18 @@ class Alberti(Cipher):
     def encrypt(self):
         add_digraphs = self.add_digraphs()
         start_spin = self.spin()
-        count_spins = len(self.message) // self.shift_sequence
+        total_spins = len(self.message) // self.shift_range
+        spin_count = 1
 
-        for spin in range(count_spins):
-            for letter in add_digraphs:
+        for letter in add_digraphs:
                 get_letter_index = self.fixed.index(letter)
-                get_coded_letter = self.movable[get_letter_index]
+                get_coded_letter = start_spin[get_letter_index]
                 encrypt = self.encrpyted_message.append(get_coded_letter)
+        # spin_again = self.spin()
+        # spin_count += 1
 
-        logging.info("Encrypted Message is: {} and total spins = {}".format(self.encrpyted_message, count_spins))
+
+        logging.info("Encrypted Message is: {} and total spins = {}".format(self.encrpyted_message, total_spins))
 
 
 
