@@ -1,6 +1,7 @@
 import logging
 import random
 from ciphers import Cipher
+from helper_functions import divide_by_five
 
 logging.basicConfig(filename="cipherlogs.log", level=logging.INFO)
 
@@ -72,14 +73,17 @@ class Alberti(Cipher):
                 start_spin = self.spin()
                 get_letter_index = self.fixed.index(letter)
                 get_coded_letter = start_spin[get_letter_index]
+                space = self.encrpyted_message.append(" ")
                 encrypt = self.encrpyted_message.append(get_coded_letter)
             else:
                 get_letter_index = self.fixed.index(letter)
                 get_coded_letter = start_spin[get_letter_index]
                 encrypt = self.encrpyted_message.append(get_coded_letter)
 
+        final_encryption = divide_by_five(self.encrpyted_message)
 
-        logging.info("Encrypted Message is: {}".format(self.encrpyted_message))
+        logging.info("Encrypted Message is: {}".format(final_encryption))
+        return final_encryption
 
 
 
