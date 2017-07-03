@@ -1,12 +1,12 @@
 import logging
 from ciphers import Cipher
-from helper_functions import divide_by_five, divide_by_two,remove_encryption_spaces
+from helper_functions import divide_by_five, remove_encryption_spaces
 
 logging.basicConfig(filename="cipherlogs.log", level=logging.INFO)
 
 
 class Bifid(Cipher):
-    """Encodes a message by using two different lists of letters / characters and matching the index value of the "movable" list to that of the fixed"""
+    """Encodes a message by assigning each letter in the user's message to an (x,y) coordinate system and then scrambling the values."""
 
     encrpyted_message = []
 
@@ -20,12 +20,13 @@ class Bifid(Cipher):
 
     @classmethod
     def create_bifid(cls, *args, **kwargs):
-        """creates an instance of Alberti by getting message from user"""
+        """creates an instance of Bifid by getting message from user"""
         message = input("Enter a message to encrypt / decrypt: ")
         logging.info("User message created: {}".format(message))
         return cls(message)
 
     def get_coordinates(self):
+        """Takes each letter from  the user's message and assigns an (x, y" coordinate for each one."""
         x_coordinates = []
         y_coordinates = []
         remove_spaces = remove_encryption_spaces(self.message)
@@ -42,6 +43,7 @@ class Bifid(Cipher):
         return final_coordinates
 
     def get_coordinates_decrypt(self):
+        """Takes each letter from  the secret message and assigns an (x, y" coordinate for each one."""
         code_coordinates = []
         remove_spaces = remove_encryption_spaces(self.message)
 
@@ -53,6 +55,7 @@ class Bifid(Cipher):
         return code_coordinates
 
     def encrypt(self):
+        """Encrypts the users message"""
         coordinates = self.get_coordinates()
         join = [data for data in coordinates]
         logging.info("joined for decryption is: {}".format(join))
@@ -74,6 +77,7 @@ class Bifid(Cipher):
         return divide_message
 
     def decrypt(self):
+        """Decrypts the user's secret message"""
         coordinates = self.get_coordinates_decrypt()
         logging.info("Get coordinates for decrypt:  {}".format(coordinates))
         length = (len(coordinates) / 2)
