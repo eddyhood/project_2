@@ -39,7 +39,9 @@ def call_decrypt(choice):
         print("Your decrypted message is {}".format(decryption))
 
     elif choice == 3:
-        pass
+        message = Bifid.create_bifid()
+        decryption = Bifid.decrypt(message)
+        print("Your decrypted message is {}".format(decryption))
 
 
 def display_ciphers():
