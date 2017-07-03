@@ -25,23 +25,7 @@ def call_encrypt(choice):
     elif choice == 3:
         pass
 
-    elif choice == 4:
-        pass
 
-    elif choice == 5:
-        pass
-
-    elif choice == 6:
-        pass
-
-    elif choice == 7:
-        pass
-
-    elif choice == 8:
-        pass
-
-    elif choice == 9:
-        pass
 
 def call_decrypt(choice):
     if choice == 1:
@@ -50,28 +34,13 @@ def call_decrypt(choice):
         print("Your decrypted message is {}".format(decryption))
 
     elif choice == 2:
-        pass
+        message = Key.create_keyword()
+        decryption = Key.decrypt(message)
+        print("Your decrypted message is {}".format(decryption))
 
     elif choice == 3:
         pass
 
-    elif choice == 4:
-        pass
-
-    elif choice == 5:
-        pass
-
-    elif choice == 6:
-        pass
-
-    elif choice == 7:
-        pass
-
-    elif choice == 8:
-        pass
-
-    elif choice == 9:
-        pass
 
 
 def launch_menu():
