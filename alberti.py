@@ -85,7 +85,5 @@ class Alberti(Cipher):
         logging.info("Encrypted Message is: {}".format(final_encryption))
         return final_encryption
 
-
-
-
-
+    def decrypt(self):
+        pass
