@@ -12,3 +12,75 @@ INFO:root:Decrypted spin pointer index: 18, code: p,  code index: 12, diff_index
 INFO:root:Decrypted spin pointer index: 18, code: i,  code index: 7, diff_index11 spin['c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f']
 INFO:root:Decrypted spin pointer index: 18, code: z,  code index: 19, diff_index-1 spin['r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm']
 INFO:root:Message with digraphs is: ['f', 'f', 'e', 'l', 'l', 'o', 'x', 'x', 'o', 'r', 'l', 'd']
+INFO:root:User message created: Iiiqv PyxdI emlZb g
+INFO:root:Remove spaces for decryption = ['I', 'i', 'i', 'q', 'v', 'P', 'y', 'x', 'd', 'I', 'e', 'm', 'l', 'Z', 'b', 'g']
+INFO:root:Decrypted spin pointer index: 18, code: i,  code index: 7, diff_index11 spin['c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f']
+INFO:root:Decrypted spin pointer index: 18, code: p,  code index: 12, diff_index6 spin['n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e']
+INFO:root:Decrypted spin pointer index: 18, code: i,  code index: 7, diff_index11 spin['c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f']
+INFO:root:Decrypted spin pointer index: 18, code: z,  code index: 19, diff_index-1 spin['r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm']
+INFO:root:User message created: Iiiqv PyxdI emlZb g
+INFO:root:Remove spaces for decryption = ['I', 'i', 'i', 'q', 'v', 'P', 'y', 'x', 'd', 'I', 'e', 'm', 'l', 'Z', 'b', 'g']
+INFO:root:Decrypted spin pointer index: 18, code: i,  code index: 7, diff_index11 spin['c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f']
+INFO:root:Decrypted spin pointer index: 18, code: p,  code index: 12, diff_index6 spin['n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e']
+INFO:root:Decrypted spin pointer index: 18, code: i,  code index: 7, diff_index11 spin['c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f']
+INFO:root:Decrypted spin pointer index: 18, code: z,  code index: 19, diff_index-1 spin['r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm']
+INFO:root:User message created: Iiiqv PyxdI emlZb g
+INFO:root:Remove spaces for decryption = ['I', 'i', 'i', 'q', 'v', 'P', 'y', 'x', 'd', 'I', 'e', 'm', 'l', 'Z', 'b', 'g']
+INFO:root:Decrypted spin pointer index: 18, code: i,  code index: 7, diff_index11 spin['c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f']
+INFO:root:Decrypted spin pointer index: 18, code: p,  code index: 12, diff_index6 spin['n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e']
+INFO:root:Decrypted spin pointer index: 18, code: i,  code index: 7, diff_index11 spin['c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f']
+INFO:root:Decrypted spin pointer index: 18, code: z,  code index: 19, diff_index-1 spin['r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm']
+INFO:root:sets of digraphs are: ['ff', 'ii', 'qq', 'vv', 'xx', 'zz']
+INFO:root:Message with digraphs is: ['f', 'f', 'e', 'l', 'l', 'o', 'x', 'x', 'o', 'r', 'l', 'd']
+INFO:root:User message created: Iiiqv PyxdI emlZb g
+INFO:root:Remove spaces for decryption = ['I', 'i', 'i', 'q', 'v', 'P', 'y', 'x', 'd', 'I', 'e', 'm', 'l', 'Z', 'b', 'g']
+INFO:root:Decrypted spin pointer index: 18, code: i,  code index: 7, diff_index11 spin['c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f']
+INFO:root:Decrypted spin pointer index: 18, code: p,  code index: 12, diff_index6 spin['n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e']
+INFO:root:Decrypted spin pointer index: 18, code: i,  code index: 7, diff_index11 spin['c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f']
+INFO:root:Decrypted spin pointer index: 18, code: z,  code index: 19, diff_index-1 spin['r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm']
+INFO:root:sets of digraphs are: ['ff', 'ii', 'qq', 'vv', 'xx', 'zz']
+INFO:root:Join list: ffelloxxorld
+INFO:root:Message with digraphs is: ['f', 'f', 'e', 'l', 'l', 'o', 'x', 'x', 'o', 'r', 'l', 'd']
+INFO:root:User message created: Iiiqv PyxdI emlZb g
+INFO:root:Remove spaces for decryption = ['I', 'i', 'i', 'q', 'v', 'P', 'y', 'x', 'd', 'I', 'e', 'm', 'l', 'Z', 'b', 'g']
+INFO:root:Decrypted spin pointer index: 18, code: i,  code index: 7, diff_index11 spin['c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f']
+INFO:root:Decrypted spin pointer index: 18, code: p,  code index: 12, diff_index6 spin['n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e']
+INFO:root:Decrypted spin pointer index: 18, code: i,  code index: 7, diff_index11 spin['c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f']
+INFO:root:Decrypted spin pointer index: 18, code: z,  code index: 19, diff_index-1 spin['r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm']
+INFO:root:Message with digraphs is: ['f', 'f', 'e', 'l', 'l', 'o', 'x', 'x', 'o', 'r', 'l', 'd']
+INFO:root:Join list: ffelloxxorld
+INFO:root:Message without digraphs: ffelloworld
+INFO:root:User message created: Iiiqv PyxdI emlZb g
+INFO:root:Remove spaces for decryption = ['I', 'i', 'i', 'q', 'v', 'P', 'y', 'x', 'd', 'I', 'e', 'm', 'l', 'Z', 'b', 'g']
+INFO:root:Decrypted spin pointer index: 18, code: i,  code index: 7, diff_index11 spin['c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f']
+INFO:root:Decrypted spin pointer index: 18, code: p,  code index: 12, diff_index6 spin['n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e']
+INFO:root:Decrypted spin pointer index: 18, code: i,  code index: 7, diff_index11 spin['c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f']
+INFO:root:Decrypted spin pointer index: 18, code: z,  code index: 19, diff_index-1 spin['r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm']
+INFO:root:Message with digraphs is: ['f', 'f', 'e', 'l', 'l', 'o', 'x', 'x', 'o', 'r', 'l', 'd']
+INFO:root:Join list: ffelloxxorld
+INFO:root:Message without digraphs: helloworld
+INFO:root:User message created: I love coding
+INFO:root:With digraph is ['i', 'l', 'o', 'v', 'e', 'c', 'o', 'd', 'i', 'n', 'g']
+INFO:root:pointer index: 18, letter shift: c, shift index: 2, diff index: 16, spin: ['i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q']
+INFO:root:pointer index: 18, letter shift: a, shift index: 0, diff index: 18, spin: ['k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x']
+INFO:root:pointer index: 18, letter shift: o, shift index: 11, diff index: 7, spin: ['b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n']
+INFO:root:pointer index: 18, letter shift: f, shift index: 5, diff index: 13, spin: ['t', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h']
+INFO:root:Encrypted Message is: Crdas AmpeO fyxFv 
+INFO:root:User message created: Crdas AmpeO fyxFv
+INFO:root:Remove spaces for decryption = ['C', 'r', 'd', 'a', 's', 'A', 'm', 'p', 'e', 'O', 'f', 'y', 'x', 'F', 'v']
+INFO:root:Decrypted spin pointer index: 18, code: c,  code index: 2, diff_index16 spin['i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q']
+INFO:root:Decrypted spin pointer index: 18, code: a,  code index: 0, diff_index18 spin['k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x']
+INFO:root:Decrypted spin pointer index: 18, code: o,  code index: 11, diff_index7 spin['b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n']
+INFO:root:Decrypted spin pointer index: 18, code: f,  code index: 5, diff_index13 spin['t', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h']
+INFO:root:Message with digraphs is: ['i', 'l', 'o', 'v', 'e', 'c', 'o', 'd', 'i', 'n', 'g']
+INFO:root:Join list: ilovecoding
+INFO:root:Message without digraphs: ilovecoding
+INFO:root:User message created: Crdas AmpeO fyxFv
+INFO:root:Remove spaces for decryption = ['C', 'r', 'd', 'a', 's', 'A', 'm', 'p', 'e', 'O', 'f', 'y', 'x', 'F', 'v']
+INFO:root:Decrypted spin pointer index: 18, code: c,  code index: 2, diff_index16 spin['i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q']
+INFO:root:Decrypted spin pointer index: 18, code: a,  code index: 0, diff_index18 spin['k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x']
+INFO:root:Decrypted spin pointer index: 18, code: o,  code index: 11, diff_index7 spin['b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n']
+INFO:root:Decrypted spin pointer index: 18, code: f,  code index: 5, diff_index13 spin['t', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h']
+INFO:root:Message with digraphs is: ['i', 'l', 'o', 'v', 'e', 'c', 'o', 'd', 'i', 'n', 'g']
+INFO:root:Join list: ilovecoding
+INFO:root:Message without digraphs: ilovecoding

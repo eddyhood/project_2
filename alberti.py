@@ -9,7 +9,6 @@ class Alberti(Cipher):
     """Encodes a message by using two different lists of letters / characters and matching the index value of the "movable" list to that of the fixed"""
 
     encrpyted_message = []
-    decrypted_message = []
 
     fixed = ["a", "b", "c", "d", "e", "f", "g", "i", "l", "m", "n",
                             "o", "p", "q", "r", "s", "t", "v", "x", "z",
@@ -111,5 +110,26 @@ class Alberti(Cipher):
                 message_with_digraphs.append(get_coded_letter)
 
         logging.info("Message with digraphs is: {}".format(message_with_digraphs))
-        return self.decrypted_message
+
+        join_list = "".join(message_with_digraphs)
+        logging.info("Join list: {}".format(join_list))
+
+        double_digraphs = {
+                            "h":"ff",
+                            "j":"ii",
+                            "k":"qq",
+                            "u":"vv",
+                            "w":"xx",
+                            "y":"zz"
+                        }
+
+        digraphs = double_digraphs.items()
+
+        for digraph in digraphs:
+            if digraph[1] in join_list:
+                join_list = join_list.replace(digraph[1],digraph[0])
+
+        logging.info("Message without digraphs: {}".format(join_list))
+
+        return join_list
 
