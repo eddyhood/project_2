@@ -2,13 +2,14 @@ import sys
 import os
 
 from alberti import Alberti
+from keyword_cipher import Key
 
 
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def display_ciphers():
-    print("Available cipher methods are:\n#1 - Alberti Cipher\n#2 - Affine Cipher\n#3 - Atbash Cipher\n#4 - Polybius Square Cipher\n#5 - Transposition Cipher\n#6 - ADFGVX Cipher\n#7 - Bifid Cipher\n#8 - Keyword Cipher\n#9 - Hill Cipher")
+    print("Available cipher methods are:\n#1 - Alberti Cipher\n#2 - Keyword Cipher\n#3 - Atbash Cipher\n#4 - Polybius Square Cipher\n#5 - Transposition Cipher\n#6 - ADFGVX Cipher\n#7 - Bifid Cipher\n#8 - Keyword Cipher\n#9 - Hill Cipher")
 
 def call_encrypt(choice):
     if choice == 1:
@@ -17,7 +18,9 @@ def call_encrypt(choice):
         print("Your encrypted message is {}".format(encryption))
 
     elif choice == 2:
-        pass
+        message = Key.create_keyword()
+        encryption = Key.encrypt(message)
+        print("Your encrypted message is {}".format(encryption))
 
     elif choice == 3:
         pass

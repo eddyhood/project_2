@@ -84,3 +84,29 @@ INFO:root:Decrypted spin pointer index: 18, code: f,  code index: 5, diff_index1
 INFO:root:Message with digraphs is: ['i', 'l', 'o', 'v', 'e', 'c', 'o', 'd', 'i', 'n', 'g']
 INFO:root:Join list: ilovecoding
 INFO:root:Message without digraphs: ilovecoding
+INFO:root:User message created: ddk3
+INFO:root:User message created: dde4
+WARNING:root:User tired to enter a message with special charicters.
+INFO:root:User message created: Hello World
+INFO:root:User message created: kryptos
+INFO:root:User message created: Hello World
+INFO:root:Modified alphabet: None
+INFO:root:User message created: Hello World
+INFO:root:User message created: Hello World
+INFO:root:Modified alphabet: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'l', 'm', 'n', 'q', 'u', 'v', 'w', 'x', 'z']
+INFO:root:User message created: Hello World
+INFO:root:Encrypted alphabet: None
+INFO:root:User message created: Hello World
+INFO:root:Encrypted alphabet: ['k', 'r', 'y', 'p', 't', 'o', 's', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'l', 'm', 'n', 'q', 'u', 'v', 'w', 'x', 'z']
+INFO:root:User message created: Hello World
+INFO:root:User message created: Hello World
+INFO:root:Encrypted alphabet: ['H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd', 'a', 'b', 'c', 'f', 'g', 'h', 'i', 'j', 'k', 'm', 'n', 'p', 'q', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+INFO:root:User message created: Hello World
+INFO:root:Encrypted alphabet: ['H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd', 'a', 'b', 'c', 'f', 'g', 'h', 'i', 'j', 'k', 'm', 'n', 'p', 'q', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+INFO:root:Encrypted message is: ['o', 'o', 'a', 'a', 'f', 'p', 'f', 'i', 'a', 'l']
+INFO:root:User message created: knowledge is power
+INFO:root:Encrypted alphabet: ['k', 'n', 'o', 'w', 'l', 'e', 'd', 'g', 'e', ' ', 'i', 's', ' ', 'p', 'o', 'w', 'e', 'r', 'a', 'b', 'c', 'f', 'h', 'j', 'm', 'q', 't', 'u', 'v', 'x', 'y', 'z']
+INFO:root:Encrypted message is: ['i', 'p', 'o', 'h', 's', 'l', 'w', 'd', 'l', 'e', 'a', 'w', 'o', 'h', 'l', 'r']
+INFO:root:User message created: knowledge is power
+INFO:root:Encrypted alphabet: ['k', 'r', 'y', 'p', 't', 'o', 's', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'l', 'm', 'n', 'q', 'u', 'v', 'w', 'x', 'z']
+INFO:root:Encrypted message is: ['d', 'g', 'h', 'v', 'e', 't', 'p', 's', 't', 'b', 'm', 'i', 'h', 'v', 't', 'l']

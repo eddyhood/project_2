@@ -5,6 +5,7 @@ from helper_functions import divide_by_five, remove_encryption_spaces
 
 logging.basicConfig(filename="cipherlogs.log", level=logging.INFO)
 
+
 class Alberti(Cipher):
     """Encodes a message by using two different lists of letters / characters and matching the index value of the "movable" list to that of the fixed"""
 
@@ -31,12 +32,13 @@ class Alberti(Cipher):
 
     @classmethod
     def create_alberti(cls, *args, **kwargs):
-        #creates an instance of Alberti by getting message from user
+        """creates an instance of Alberti by getting message from user"""
         message = input("Enter a message to encrypt / decrypt: ")
         logging.info("User message created: {}".format(message))
         return cls(message)
 
     def spin(self):
+        """Spins movable "wheel" in relation to fixed wheel for encryption"""
         pointer_index = self.movable.index(self.pointer)
         letter_shift = random.choice(self.fixed[:20])
         shift_index = self.fixed.index(letter_shift)
@@ -48,17 +50,18 @@ class Alberti(Cipher):
         return spin
 
     def decrypt_spin(self, letter):
-        pointer_index = self.movable.index(self.pointer) #index of k on moviabl
-        code = letter.lower() #Capital letter being passed from code
-        code_index = self.fixed.index(code) #index of code in fixed
-        diff_index = pointer_index - code_index #
+        """Spins movable "wheel" in relation to fixed wheel for decryption"""
+        pointer_index = self.movable.index(self.pointer)
+        code = letter.lower()
+        code_index = self.fixed.index(code)
+        diff_index = pointer_index - code_index
         spin = self.movable[diff_index:] + self.movable[:diff_index]
 
         logging.info("Decrypted spin pointer index: {}, code: {},  code index: {}, diff_index{} spin{}".format(pointer_index, code, code_index,diff_index, spin))
         return spin
 
     def add_digraphs(self):
-    #The cipher requires that certain letters be replaced with digraphs before the message can be encoded.
+        """The cipher requires that certain letters be replaced with digraphs before the message can be encoded. This makes the message harder to crack."""
         lower_case = self.message.lower()
         message_with_digraphs = []
 
@@ -75,6 +78,7 @@ class Alberti(Cipher):
         return message_with_digraphs
 
     def encrypt(self):
+        """Encrypts the message from user"""
         add_digraphs = self.add_digraphs()
         start_spin = self.spin()
 
@@ -96,6 +100,7 @@ class Alberti(Cipher):
         return final_encryption
 
     def decrypt(self):
+        """Decrypts the message from user"""
         start_spin = []
         message_with_digraphs = []
         remove_spaces = remove_encryption_spaces(self.message)
@@ -109,10 +114,7 @@ class Alberti(Cipher):
                 get_coded_letter = self.fixed[get_letter_index]
                 message_with_digraphs.append(get_coded_letter)
 
-        logging.info("Message with digraphs is: {}".format(message_with_digraphs))
-
         join_list = "".join(message_with_digraphs)
-        logging.info("Join list: {}".format(join_list))
 
         double_digraphs = {
                             "h":"ff",

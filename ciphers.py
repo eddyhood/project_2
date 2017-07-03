@@ -12,6 +12,7 @@ class Cipher:
             if letter.isalpha() or letter == " " or letter is "&":
                 pass
             else:
+                logging.warning("User tired to enter a message with special charicters.")
                 raise ValueError("Your message can only contain letters from the english alphabet.")
 
         self.message = message
