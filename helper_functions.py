@@ -27,6 +27,24 @@ def divide_by_five(final_message):
 
     return final_encryption
 
+def divide_by_two(coordinates):
+    n = 2
+    split = [coordinates[i:i+n] for i in range(0, len(coordinates), n)]
+
+    #Combine letters within each of the lists
+    combine = ["".join(data) for data in split]
+
+    #combine the groups of combined lists
+    joined_list = []
+    for data in combine:
+        space = data + " "
+        joined_list.extend(space)
+
+    #covert final list to string
+    final_encryption = "".join(joined_list)
+
+    return final_encryption
+
 def remove_encryption_spaces(message):
     without_spaces = []
     for letter in message:

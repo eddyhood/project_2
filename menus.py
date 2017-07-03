@@ -3,6 +3,7 @@ import os
 
 from alberti import Alberti
 from keyword_cipher import Key
+from bifid import Bifid
 
 
 def clear_screen():
@@ -21,7 +22,9 @@ def call_encrypt(choice):
         print("Your encrypted message is {}".format(encryption))
 
     elif choice == 3:
-        pass
+        message = Bifid.create_bifid()
+        encryption = Bifid.encrypt(message)
+        print("Your encrypted message is {}".format(encryption))
 
 
 def call_decrypt(choice):
