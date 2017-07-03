@@ -8,5 +8,11 @@ class Cipher:
     string argument from the user as the text to be encrypted or
     decrypted."""
     def __init__(self, message, touch_pad = None, *args, **kwargs):
+        for letter in message:
+            if letter.isalpha() or letter == " ":
+                pass
+            else:
+                raise ValueError("Your message can only contain letters from the english alphabet.")
+
         self.message = message
         self.touch_pad = touch_pad
