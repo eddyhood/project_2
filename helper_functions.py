@@ -26,3 +26,14 @@ def divide_by_five(final_message):
     final_encryption = "".join(joined_list)
 
     return final_encryption
+
+def remove_encryption_spaces(message):
+    without_spaces = []
+    for letter in message:
+        if letter == " ":
+            continue
+        else:
+            without_spaces.append(letter)
+    return without_spaces
+
+

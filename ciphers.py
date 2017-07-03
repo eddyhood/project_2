@@ -9,7 +9,7 @@ class Cipher:
     decrypted."""
     def __init__(self, message, touch_pad = None, *args, **kwargs):
         for letter in message:
-            if letter.isalpha() or letter == " ":
+            if letter.isalpha() or letter == " " or letter is "&":
                 pass
             else:
                 raise ValueError("Your message can only contain letters from the english alphabet.")

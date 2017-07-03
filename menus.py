@@ -40,6 +40,36 @@ def call_encrypt(choice):
     elif choice == 9:
         pass
 
+def call_decrypt(choice):
+    if choice == 1:
+        message = Alberti.create_alberti()
+        decryption = Alberti.decrypt(message)
+        print("Your decrypted message is {}".format(decryption))
+
+    elif choice == 2:
+        pass
+
+    elif choice == 3:
+        pass
+
+    elif choice == 4:
+        pass
+
+    elif choice == 5:
+        pass
+
+    elif choice == 6:
+        pass
+
+    elif choice == 7:
+        pass
+
+    elif choice == 8:
+        pass
+
+    elif choice == 9:
+        pass
+
 
 def launch_menu():
     goal = input("Welcome to Hood's Cipher System. Would you like to encrypt, decrypt, or quit?  Choose E / D / Q:")
@@ -54,7 +84,7 @@ def launch_menu():
         clear_screen()
         display_ciphers()
         choice = input("Type number 1 - 9 to choose your cipher method: ")
-        call_decrypt(choice)
+        call_decrypt(int(choice))
 
     elif goal.upper() == "Q":
         clear_screen()
@@ -65,6 +95,3 @@ def launch_menu():
         raise ValueError("Please enter E, D, or Q")
 
 go = launch_menu()
-
-
-

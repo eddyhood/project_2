@@ -1,7 +1,7 @@
 import logging
 import random
 from ciphers import Cipher
-from helper_functions import divide_by_five
+from helper_functions import divide_by_five, remove_encryption_spaces
 
 logging.basicConfig(filename="cipherlogs.log", level=logging.INFO)
 
@@ -9,6 +9,7 @@ class Alberti(Cipher):
     """Encodes a message by using two different lists of letters / characters and matching the index value of the "movable" list to that of the fixed"""
 
     encrpyted_message = []
+    decrypted_message = []
 
     fixed = ["a", "b", "c", "d", "e", "f", "g", "i", "l", "m", "n",
                             "o", "p", "q", "r", "s", "t", "v", "x", "z",
@@ -45,6 +46,16 @@ class Alberti(Cipher):
         add_key_letter = self.encrpyted_message.append(letter_shift.upper())
 
         logging.info("pointer index: {0}, letter shift: {1}, shift index: {2}, diff index: {3}, spin: {4}".format(pointer_index, letter_shift, shift_index, diff_index, spin))
+        return spin
+
+    def decrypt_spin(self, letter):
+        pointer_index = self.movable.index(self.pointer) #index of k on moviabl
+        code = letter.lower() #Capital letter being passed from code
+        code_index = self.fixed.index(code) #index of code in fixed
+        diff_index = pointer_index - code_index #
+        spin = self.movable[diff_index:] + self.movable[:diff_index]
+
+        logging.info("Decrypted spin pointer index: {}, code: {},  code index: {}, diff_index{} spin{}".format(pointer_index, code, code_index,diff_index, spin))
         return spin
 
     def add_digraphs(self):
@@ -86,4 +97,19 @@ class Alberti(Cipher):
         return final_encryption
 
     def decrypt(self):
-        pass
+        start_spin = []
+        message_with_digraphs = []
+        remove_spaces = remove_encryption_spaces(self.message)
+        logging.info("Remove spaces for decryption = {}".format(remove_spaces))
+
+        for letter in remove_spaces:
+            if letter.istitle():
+                start_spin = self.decrypt_spin(letter)
+            else:
+                get_letter_index = start_spin.index(letter)
+                get_coded_letter = self.fixed[get_letter_index]
+                message_with_digraphs.append(get_coded_letter)
+
+        logging.info("Message with digraphs is: {}".format(message_with_digraphs))
+        return self.decrypted_message
+
