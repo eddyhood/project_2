@@ -579,3 +579,59 @@ INFO:root:x_list: [3, 4, 3, 5, 3, 5, 3, 4, 4, 3, 2, 5]
 INFO:root:y_list: [1, 3, 2, 4, 5, 1, 1, 1, 1, 3, 3, 3]
 INFO:root:zipped coordinates: [(3, 1), (4, 3), (3, 2), (5, 4), (3, 5), (5, 1), (3, 1), (4, 1), (4, 1), (3, 3), (2, 3), (5, 3)]
 INFO:root:Decrypted message is:  ilovetiffany
+INFO:root:User message created: I love tiffany
+INFO:root:Nums for keyword are:  [6, 9, 19, 8]
+INFO:root:Final encryption is gkvl
+INFO:root:Message:  I love tiffany, One_Time_Pad: 123456, Keyword: fish Size y
+INFO:root:With digraph is ['i', 'l', 'o', 'v', 'e', 't', 'i', 'f', 'f', 'a', 'n', 'z', 'z']
+INFO:root:pointer index: 18, letter shift: o, shift index: 11, diff index: 7, spin: ['b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n']
+INFO:root:pointer index: 18, letter shift: v, shift index: 17, diff index: 1, spin: ['l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd']
+INFO:root:pointer index: 18, letter shift: n, shift index: 10, diff index: 8, spin: ['o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b']
+INFO:root:pointer index: 18, letter shift: i, shift index: 7, diff index: 11, spin: ['c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f']
+INFO:root:Encrypted Msg is: Oyqkd VexoN ttoI& nn 
+INFO:root:User message created: Oyqkd VexoN ttoI& nn
+INFO:root:Nums for keyword are:  []
+INFO:root:User message created: Oyqkd VexoN ttoI& nn
+INFO:root:Nums for keyword are:  [6, 9, 19, 8]
+INFO:root:Final encryption is gkvl
+INFO:root:Message:  Oyqkd VexoN ttoI& nn, One_Time_Pad: 123456, Keyword: fish Size n
+INFO:root:Remove spaces for decryption = ['O', 'y', 'q', 'k', 'd', 'V', 'e', 'x', 'o', 'N', 't', 't', 'o', 'I', '&', 'n', 'n']
+INFO:root:Decrypted spin pointer index: 18, code: o,  code index: 11, diff_index7 spin['b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n']
+INFO:root:Decrypted spin pointer index: 18, code: v,  code index: 17, diff_index1 spin['l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd']
+INFO:root:Decrypted spin pointer index: 18, code: n,  code index: 10, diff_index8 spin['o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b']
+INFO:root:Decrypted spin pointer index: 18, code: i,  code index: 7, diff_index11 spin['c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f']
+INFO:root:Message with digraphs: ilovetiffanzz
+INFO:root:Message without digraphs: ilovetihany
+INFO:root:User message created: I love tiffany
+INFO:root:Nums for keyword are:  [6, 9, 19, 8]
+INFO:root:Final encryption is gkvl
+INFO:root:Message:  I love tiffany, One_Time_Pad: 123456, Keyword: fish Size n
+INFO:root:Encrypted alphabet: ['d', 'a', 'v', 'e', 'b', 'c', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'w', 'x', 'y', 'z']
+INFO:root:Encrypted message is: hknubshccdmy
+INFO:root:User message created: hknubshccdmy
+INFO:root:Nums for keyword are:  [6, 9, 19, 8]
+INFO:root:Final encryption is gkvl
+INFO:root:Message:  hknubshccdmy, One_Time_Pad: 123456, Keyword: fish Size n
+INFO:root:Encrypted alphabet: ['d', 'a', 'v', 'e', 'b', 'c', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'w', 'x', 'y', 'z']
+INFO:root:Decrypt alphabet = ['d', 'a', 'v', 'e', 'b', 'c', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'w', 'x', 'y', 'z']
+INFO:root:Message without spaces: ['h', 'k', 'n', 'u', 'b', 's', 'h', 'c', 'c', 'd', 'm', 'y']
+INFO:root:Decrypted message is: ilovetiffany
+INFO:root:User message created: I love tiffany
+INFO:root:Nums for keyword are:  [6, 9, 19, 8]
+INFO:root:Final encryption is gkvl
+INFO:root:Message:  I love tiffany, One_Time_Pad: 123456, Keyword: fish Size y
+INFO:root:X coordinates are: [3, 4, 3, 5, 3, 5, 3, 4, 4, 3, 2, 5]
+INFO:root:y coordinates are: [1, 3, 2, 4, 5, 1, 1, 1, 1, 3, 3, 3]
+INFO:root:final coordinates are: [3, 4, 3, 5, 3, 5, 3, 4, 4, 3, 2, 5, 1, 3, 2, 4, 5, 1, 1, 1, 1, 3, 3, 3]
+INFO:root:joined for decryption is: [3, 4, 3, 5, 3, 5, 3, 4, 4, 3, 2, 5, 1, 3, 2, 4, 5, 1, 1, 1, 1, 3, 3, 3]
+INFO:root:Split: [[3, 4], [3, 5], [3, 5], [3, 4], [4, 3], [2, 5], [1, 3], [2, 4], [5, 1], [1, 1], [1, 3], [3, 3]]
+INFO:root:Code is: xeexl swdtb wa 
+INFO:root:User message created: xeexl swdtb wa
+INFO:root:Nums for keyword are:  [6, 9, 19, 8]
+INFO:root:Final encryption is gkvl
+INFO:root:Message:  xeexl swdtb wa, One_Time_Pad: 1234566, Keyword: fish Size n
+INFO:root:Get coordinates for decrypt:  [(3, 4), (3, 5), (3, 5), (3, 4), (4, 3), (2, 5), (1, 3), (2, 4), (5, 1), (1, 1), (1, 3), (3, 3)]
+INFO:root:x_list: [3, 4, 3, 5, 3, 5, 3, 4, 4, 3, 2, 5]
+INFO:root:y_list: [1, 3, 2, 4, 5, 1, 1, 1, 1, 3, 3, 3]
+INFO:root:zipped coordinates: [(3, 1), (4, 3), (3, 2), (5, 4), (3, 5), (5, 1), (3, 1), (4, 1), (4, 1), (3, 3), (2, 3), (5, 3)]
+INFO:root:Decrypted message is:  ilovetiffany
