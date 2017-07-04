@@ -7,9 +7,7 @@ logging.basicConfig(filename="cipherlogs.log", level=logging.INFO)
 
 class Key(Cipher):
     """Uses a keyword to shift alphabetic text and pair the letters for encryption"""
-
     encrpyted_message = []
-
     alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 
     def __init__(self, message, keyword, *args, **kwargs):
@@ -81,11 +79,3 @@ class Key(Cipher):
 
         logging.info("Decrypted message is: {}".format(join_message))
         return join_message
-
-
-
-
-
-
-
-

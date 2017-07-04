@@ -1,4 +1,5 @@
 import logging
+from pad import create_pad
 
 logging.basicConfig(filename = "cipherlogs.log", level=logging.INFO)
 
@@ -22,4 +23,5 @@ class Cipher:
         self.one_time_pad = one_time_pad
         self.keyword = keyword
         self.size = size
+        create_pad(self.one_time_pad, self.keyword)
         logging.info("Message:  {}, One_Time_Pad: {}, Keyword: {} Size {}".format(self.message, self.one_time_pad, self.keyword, self.size))

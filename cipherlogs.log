@@ -195,3 +195,119 @@ INFO:root:Encrypted alphabet: ['k', 'r', 'y', 'p', 't', 'o', 's', 'a', 'b', 'c',
 INFO:root:Decrypt alphabet = ['k', 'r', 'y', 'p', 't', 'o', 's', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'l', 'm', 'n', 'q', 'u', 'v', 'w', 'x', 'z']
 INFO:root:Message without spaces: ['b', 'e', 'h', 'u', 't', 'n', 'b', 'o', 'o', 'k', 'g', 'x']
 INFO:root:Decrypted message is: ilovetiffany
+INFO:root:User message created: I love tiffany
+INFO:root:Message:  I love tiffany, One_Time_Pad: 12345, Keyword: kool Size y
+INFO:root:X coordinates are: [3, 4, 3, 5, 3, 5, 3, 4, 4, 3, 2, 5]
+INFO:root:y coordinates are: [1, 3, 2, 4, 5, 1, 1, 1, 1, 3, 3, 3]
+INFO:root:final coordinates are: [3, 4, 3, 5, 3, 5, 3, 4, 4, 3, 2, 5, 1, 3, 2, 4, 5, 1, 1, 1, 1, 3, 3, 3]
+INFO:root:joined for decryption is: [3, 4, 3, 5, 3, 5, 3, 4, 4, 3, 2, 5, 1, 3, 2, 4, 5, 1, 1, 1, 1, 3, 3, 3]
+INFO:root:Split: [[3, 4], [3, 5], [3, 5], [3, 4], [4, 3], [2, 5], [1, 3], [2, 4], [5, 1], [1, 1], [1, 3], [3, 3]]
+INFO:root:Code is: xeexl swdtb wa 
+INFO:root:User message created: I love Tiffany
+INFO:root:Message:  I love Tiffany, One_Time_Pad: 12345, Keyword: tree Size n
+INFO:root:X coordinates are: [3, 4, 3, 5, 3, 5, 3, 4, 4, 3, 2, 5]
+INFO:root:y coordinates are: [1, 3, 2, 4, 5, 1, 1, 1, 1, 3, 3, 3]
+INFO:root:final coordinates are: [3, 4, 3, 5, 3, 5, 3, 4, 4, 3, 2, 5, 1, 3, 2, 4, 5, 1, 1, 1, 1, 3, 3, 3]
+INFO:root:joined for decryption is: [3, 4, 3, 5, 3, 5, 3, 4, 4, 3, 2, 5, 1, 3, 2, 4, 5, 1, 1, 1, 1, 3, 3, 3]
+INFO:root:Split: [[3, 4], [3, 5], [3, 5], [3, 4], [4, 3], [2, 5], [1, 3], [2, 4], [5, 1], [1, 1], [1, 3], [3, 3]]
+INFO:root:Code is: xeexl swdtb wa 
+INFO:root:User message created: xeexl swdtb wa
+INFO:root:Message:  xeexl swdtb wa, One_Time_Pad: 1234, Keyword: tree Size n
+INFO:root:Get coordinates for decrypt:  [(3, 4), (3, 5), (3, 5), (3, 4), (4, 3), (2, 5), (1, 3), (2, 4), (5, 1), (1, 1), (1, 3), (3, 3)]
+INFO:root:x_list: [3, 4, 3, 5, 3, 5, 3, 4, 4, 3, 2, 5]
+INFO:root:y_list: [1, 3, 2, 4, 5, 1, 1, 1, 1, 3, 3, 3]
+INFO:root:zipped coordinates: [(3, 1), (4, 3), (3, 2), (5, 4), (3, 5), (5, 1), (3, 1), (4, 1), (4, 1), (3, 3), (2, 3), (5, 3)]
+INFO:root:Decrypted message is:  ilovetiffany
+INFO:root:User message created: xeexl swdtb wa 
+INFO:root:Message:  xeexl swdtb wa , One_Time_Pad: 123, Keyword: tree Size y
+INFO:root:Get coordinates for decrypt:  [(3, 4), (3, 5), (3, 5), (3, 4), (4, 3), (2, 5), (1, 3), (2, 4), (5, 1), (1, 1), (1, 3), (3, 3)]
+INFO:root:x_list: [3, 4, 3, 5, 3, 5, 3, 4, 4, 3, 2, 5]
+INFO:root:y_list: [1, 3, 2, 4, 5, 1, 1, 1, 1, 3, 3, 3]
+INFO:root:zipped coordinates: [(3, 1), (4, 3), (3, 2), (5, 4), (3, 5), (5, 1), (3, 1), (4, 1), (4, 1), (3, 3), (2, 3), (5, 3)]
+INFO:root:Decrypted message is:  ilovetiffany
+INFO:root:User message created: Hello World
+INFO:root:Message:  Hello World, One_Time_Pad: asdf, Keyword: afd Size ssad
+INFO:root:With digraph is ['f', 'f', 'e', 'l', 'l', 'o', 'x', 'x', 'o', 'r', 'l', 'd']
+INFO:root:pointer index: 18, letter shift: e, shift index: 4, diff index: 14, spin: ['y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't']
+INFO:root:pointer index: 18, letter shift: f, shift index: 5, diff index: 13, spin: ['t', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h']
+INFO:root:pointer index: 18, letter shift: a, shift index: 0, diff index: 18, spin: ['k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x']
+INFO:root:pointer index: 18, letter shift: p, shift index: 12, diff index: 6, spin: ['n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e']
+INFO:root:Encrypted Msg is: EvvkmF &dbA heoP ys
+INFO:root:User message created: Hello World
+INFO:root:User message created: Hello
+INFO:root:User message created: Hello
+INFO:root:User message created: Hello
+INFO:root:Nums for keyword are:  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+INFO:root:Match pad:  12345
+INFO:root:Pad list:  [1, 2, 3, 4, 5]
+INFO:root:Combine:  <zip object at 0x102e1c348>
+INFO:root:Message:  Hello, One_Time_Pad: 123456, Keyword: tree Size n
+INFO:root:With digraph is ['f', 'f', 'e', 'l', 'l', 'o']
+INFO:root:pointer index: 18, letter shift: x, shift index: 18, diff index: 0, spin: ['d', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r']
+INFO:root:pointer index: 18, letter shift: l, shift index: 8, diff index: 10, spin: ['f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's']
+INFO:root:Encrypted Msg is: XeezoL k&
+INFO:root:User message created: Hello World
+INFO:root:Nums for keyword are:  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+INFO:root:Match pad:  12345
+INFO:root:Pad list:  [1, 2, 3, 4, 5]
+INFO:root:Combine:  [(1, 1), (2, 2), (3, 3), (4, 4), (5, 5)]
+INFO:root:Message:  Hello World, One_Time_Pad: 123456, Keyword: fish Size n
+INFO:root:With digraph is ['f', 'f', 'e', 'l', 'l', 'o', 'x', 'x', 'o', 'r', 'l', 'd']
+INFO:root:pointer index: 18, letter shift: m, shift index: 9, diff index: 9, spin: ['s', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o']
+INFO:root:pointer index: 18, letter shift: m, shift index: 9, diff index: 9, spin: ['s', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o']
+INFO:root:pointer index: 18, letter shift: r, shift index: 14, diff index: 4, spin: ['z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a']
+INFO:root:pointer index: 18, letter shift: p, shift index: 12, diff index: 6, spin: ['n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e']
+INFO:root:Encrypted Msg is: MyytxM xpaR mqkP ys
+INFO:root:User message created: Hello World
+INFO:root:Nums for keyword are:  [6, 9, 19, 8]
+INFO:root:Match pad:  12345
+INFO:root:Pad list:  [1, 2, 3, 4, 5]
+INFO:root:Combine:  [(1, 6), (2, 9), (3, 19), (4, 8)]
+INFO:root:Message:  Hello World, One_Time_Pad: 123456, Keyword: fish Size n
+INFO:root:With digraph is ['f', 'f', 'e', 'l', 'l', 'o', 'x', 'x', 'o', 'r', 'l', 'd']
+INFO:root:pointer index: 18, letter shift: a, shift index: 0, diff index: 18, spin: ['k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x']
+INFO:root:pointer index: 18, letter shift: o, shift index: 11, diff index: 7, spin: ['b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n']
+INFO:root:pointer index: 18, letter shift: s, shift index: 15, diff index: 3, spin: ['a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g']
+INFO:root:pointer index: 18, letter shift: r, shift index: 14, diff index: 4, spin: ['z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a']
+INFO:root:Encrypted Msg is: ArrmgO qklS &yxR hb
+INFO:root:User message created: Hello World
+INFO:root:Nums for keyword are:  [6, 9, 19, 8]
+INFO:root:Match pad:  12345
+INFO:root:Pad list:  [1, 2, 3, 4, 5]
+INFO:root:Combine:  [(1, 6), (2, 9), (3, 19), (4, 8)]
+INFO:root:added is [7, 11, 22, 12]
+INFO:root:Message:  Hello World, One_Time_Pad: 123456, Keyword: fish Size y
+INFO:root:With digraph is ['f', 'f', 'e', 'l', 'l', 'o', 'x', 'x', 'o', 'r', 'l', 'd']
+INFO:root:pointer index: 18, letter shift: i, shift index: 7, diff index: 11, spin: ['c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f']
+INFO:root:pointer index: 18, letter shift: e, shift index: 4, diff index: 14, spin: ['y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't']
+INFO:root:pointer index: 18, letter shift: c, shift index: 2, diff index: 16, spin: ['i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q']
+INFO:root:pointer index: 18, letter shift: z, shift index: 19, diff index: -1, spin: ['r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm']
+INFO:root:Encrypted Msg is: Iiiqv EmloC fanZb g 
+INFO:root:User message created: Hello World
+INFO:root:Nums for keyword are:  [6, 9, 19, 8]
+INFO:root:Match pad:  12345
+INFO:root:Pad list:  [1, 2, 3, 4, 5]
+INFO:root:Combine:  [(1, 6), (2, 9), (3, 19), (4, 8)]
+INFO:root:added is [7, 11, 22, 12]
+INFO:root:Final encryption is hhhh
+INFO:root:Message:  Hello World, One_Time_Pad: 123456, Keyword: fish Size y
+INFO:root:With digraph is ['f', 'f', 'e', 'l', 'l', 'o', 'x', 'x', 'o', 'r', 'l', 'd']
+INFO:root:pointer index: 18, letter shift: f, shift index: 5, diff index: 13, spin: ['t', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h']
+INFO:root:pointer index: 18, letter shift: g, shift index: 6, diff index: 12, spin: ['h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c']
+INFO:root:pointer index: 18, letter shift: x, shift index: 18, diff index: 0, spin: ['d', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r']
+INFO:root:pointer index: 18, letter shift: i, shift index: 7, diff index: 11, spin: ['c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f']
+INFO:root:Encrypted Msg is: Fkkx& GprnX kcyIv y 
+INFO:root:User message created: Hello World
+INFO:root:Nums for keyword are:  [6, 9, 19, 8]
+INFO:root:Match pad:  12345
+INFO:root:Pad list:  [1, 2, 3, 4, 5]
+INFO:root:Combine:  [(1, 6), (2, 9), (3, 19), (4, 8)]
+INFO:root:added is [7, 11, 22, 12]
+INFO:root:Final encryption is gkvl
+INFO:root:Message:  Hello World, One_Time_Pad: 123456, Keyword: fish Size y
+INFO:root:With digraph is ['f', 'f', 'e', 'l', 'l', 'o', 'x', 'x', 'o', 'r', 'l', 'd']
+INFO:root:pointer index: 18, letter shift: q, shift index: 13, diff index: 5, spin: ['e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z']
+INFO:root:pointer index: 18, letter shift: x, shift index: 18, diff index: 0, spin: ['d', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r']
+INFO:root:pointer index: 18, letter shift: e, shift index: 4, diff index: 14, spin: ['y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't']
+INFO:root:pointer index: 18, letter shift: c, shift index: 2, diff index: 16, spin: ['i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q']
+INFO:root:Encrypted Msg is: Qffst XockE olzCd v 
