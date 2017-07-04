@@ -1,6 +1,6 @@
 
-def divide_by_five(final_message):
 
+def divide_by_five(final_message):
     #remove random spacing from message
     formatted_message = []
     for letter in final_message:
@@ -27,6 +27,7 @@ def divide_by_five(final_message):
 
     return final_encryption
 
+
 def divide_by_two(coordinates):
     n = 2
     split = [coordinates[i:i+n] for i in range(0, len(coordinates), n)]
@@ -42,8 +43,8 @@ def divide_by_two(coordinates):
 
     #covert final list to string
     final_encryption = "".join(joined_list)
-
     return final_encryption
+
 
 def remove_encryption_spaces(message):
     without_spaces = []

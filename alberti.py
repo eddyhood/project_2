@@ -16,8 +16,8 @@ class Alberti(Cipher):
                             1, 2, 3, 4]
 
     movable = ["d", "l", "g", "a", "z", "e", "n", "b", "o", "s",
-                       "f","c", "h", "t", "y", "q", "i", "x", "k", "v",
-                       "p", "&","m", "r"]
+                       "f", "c", "h", "t", "y", "q", "i", "x", "k", "v",
+                       "p", "&", "m", "r"]
 
     digraph = {"h":"f",
                "j":"i",
@@ -35,7 +35,7 @@ class Alberti(Cipher):
         """creates an instance of Alberti by getting message from user"""
         message = input("Enter a message to encrypt / decrypt: ")
         logging.info("User message created: {}".format(message))
-        return cls(message)
+        return message
 
     def spin(self):
         """Spins movable "wheel" in relation to fixed wheel for encryption"""
@@ -45,8 +45,7 @@ class Alberti(Cipher):
         diff_index = pointer_index - shift_index
         spin = self.movable[diff_index:] + self.movable[:diff_index]
         add_key_letter = self.encrpyted_message.append(letter_shift.upper())
-
-        logging.info("pointer index: {0}, letter shift: {1}, shift index: {2}, diff index: {3}, spin: {4}".format(pointer_index, letter_shift, shift_index, diff_index, spin))
+        logging.info("pointer index: {}, letter shift: {}, shift index: {}, diff index: {}, spin: {}".format(pointer_index, letter_shift, shift_index, diff_index, spin))
         return spin
 
     def decrypt_spin(self, letter):
@@ -56,7 +55,6 @@ class Alberti(Cipher):
         code_index = self.fixed.index(code)
         diff_index = pointer_index - code_index
         spin = self.movable[diff_index:] + self.movable[:diff_index]
-
         logging.info("Decrypted spin pointer index: {}, code: {},  code index: {}, diff_index{} spin{}".format(pointer_index, code, code_index,diff_index, spin))
         return spin
 
@@ -95,7 +93,6 @@ class Alberti(Cipher):
                 encrypt = self.encrpyted_message.append(get_coded_letter)
 
         final_encryption = divide_by_five(self.encrpyted_message)
-
         logging.info("Encrypted Message is: {}".format(final_encryption))
         return final_encryption
 
@@ -132,6 +129,4 @@ class Alberti(Cipher):
                 join_list = join_list.replace(digraph[1],digraph[0])
 
         logging.info("Message without digraphs: {}".format(join_list))
-
         return join_list
-

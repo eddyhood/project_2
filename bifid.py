@@ -26,7 +26,7 @@ class Bifid(Cipher):
         return cls(message)
 
     def get_coordinates(self):
-        """Takes each letter from  the user's message and assigns an (x, y" coordinate for each one."""
+        """Takes each letter from  the user's message and assigns an (x, y) coordinate for each one."""
         x_coordinates = []
         y_coordinates = []
         remove_spaces = remove_encryption_spaces(self.message)
@@ -43,7 +43,7 @@ class Bifid(Cipher):
         return final_coordinates
 
     def get_coordinates_decrypt(self):
-        """Takes each letter from  the secret message and assigns an (x, y" coordinate for each one."""
+        """Takes each letter from  the secret message and assigns an (x, y) coordinate for each one."""
         code_coordinates = []
         remove_spaces = remove_encryption_spaces(self.message)
 
@@ -51,7 +51,6 @@ class Bifid(Cipher):
             for letter, coordinates in self.coordinates.items():
                 if code.lower() == letter:
                     code_coordinates.append(coordinates)
-
         return code_coordinates
 
     def encrypt(self):
@@ -65,7 +64,6 @@ class Bifid(Cipher):
         logging.info("Split: {}".format(split))
 
         code_letters = []
-
         for data in split:
             for letter, coordinate in self.coordinates.items():
                 if data == list(coordinate):
@@ -80,7 +78,7 @@ class Bifid(Cipher):
         """Decrypts the user's secret message"""
         coordinates = self.get_coordinates_decrypt()
         logging.info("Get coordinates for decrypt:  {}".format(coordinates))
-        length = (len(coordinates) / 2)
+        length = (len(coordinates)/2)
         x_coordinates = coordinates[:int(length)]
         y_coordinates = coordinates[int(length):]
 
@@ -106,10 +104,5 @@ class Bifid(Cipher):
                     decrypted_message.append(letter)
 
         join_letters = "".join(decrypted_message)
-
-
         logging.info("Decrypted message is:  {}".format(join_letters))
         return join_letters
-
-
-

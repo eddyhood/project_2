@@ -6,16 +6,15 @@ logging.basicConfig(filename="cipherlogs.log", level=logging.INFO)
 
 
 class Key(Cipher):
-    """uses a keyword to shift alphabetic text and pair the letters for encryption"""
+    """Uses a keyword to shift alphabetic text and pair the letters for encryption"""
 
     encrpyted_message = []
 
-    alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m","n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+    alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 
     def __init__(self, message, keyword, *args, **kwargs):
-        super(). __init__(message, touch_pad = None, *args, **kwargs)
+        super().__init__(message, touch_pad = None, *args, **kwargs)
         self.keyword = keyword
-
 
     @classmethod
     def create_keyword(cls, *args, **kwargs):
@@ -32,7 +31,7 @@ class Key(Cipher):
 
     def encrypted_alphabet(self, keyword):
         """Takes their keyword, removes it's letters from the alphabet and then appends keyword with what is left of the alphabet"""
-        encrypted_alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m","n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+        encrypted_alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 
         for letter in keyword:
             if letter in encrypted_alphabet:
