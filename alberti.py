@@ -35,7 +35,7 @@ class Alberti(Cipher):
         """creates an instance of Alberti by getting message from user"""
         message = input("Enter a message to encrypt / decrypt: ")
         logging.info("User message created: {}".format(message))
-        return message
+        return cls(message)
 
     def spin(self):
         """Spins movable "wheel" in relation to fixed wheel for encryption"""
