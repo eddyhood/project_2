@@ -100,7 +100,6 @@ class Alberti(Cipher):
             logging.info("Encrypted Msg is: {}".format("".join(self.encrpyted_message)))
             return "".join(self.encrpyted_message)
 
-
     def decrypt(self):
         """Decrypts the message from user"""
         start_spin = []

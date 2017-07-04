@@ -155,3 +155,43 @@ INFO:root:Decrypted spin pointer index: 18, code: c,  code index: 2, diff_index1
 INFO:root:Decrypted spin pointer index: 18, code: l,  code index: 8, diff_index10 spin['f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's']
 INFO:root:Message with digraphs: eddzzisaxxesome
 INFO:root:Message without digraphs: eddyisawesome
+INFO:root:User message created: I love Tiffany
+INFO:root:Message:  I love Tiffany, One_Time_Pad: 123, Keyword: treehouse Size n
+INFO:root:Encrypted alphabet: ['k', 'r', 'y', 'p', 't', 'o', 's', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'l', 'm', 'n', 'q', 'u', 'v', 'w', 'x', 'z']
+INFO:root:Encrypted message is: behut nbook gx 
+INFO:root:User message created: behut nbook gx
+INFO:root:Message:  behut nbook gx, One_Time_Pad: 123, Keyword: tree Size n
+INFO:root:Encrypted alphabet: ['k', 'r', 'y', 'p', 't', 'o', 's', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'l', 'm', 'n', 'q', 'u', 'v', 'w', 'x', 'z']
+INFO:root:Decrypt alphabet = ['k', 'r', 'y', 'p', 't', 'o', 's', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'l', 'm', 'n', 'q', 'u', 'v', 'w', 'x', 'z']
+INFO:root:Message without spaces: ['b', 'e', 'h', 'u', 't', 'n', 'b', 'o', 'o', 'k', 'g', 'x']
+INFO:root:Decrypted message is: ilovetiffany
+INFO:root:User message created: this is freaking wild!
+WARNING:root:User tired to enter a message with special charicters.
+INFO:root:User message created: This is freaking Wild
+INFO:root:Message:  This is freaking Wild, One_Time_Pad: 123, Keyword: treehouse Size Y
+INFO:root:Encrypted alphabet: ['k', 'r', 'y', 'p', 't', 'o', 's', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'l', 'm', 'n', 'q', 'u', 'v', 'w', 'x', 'z']
+INFO:root:Encrypted message is: nabmb moltk dbgsv bep 
+INFO:root:User message created: This is freaking wild
+INFO:root:Message:  This is freaking wild, One_Time_Pad: 12345, Keyword: tree Size y
+INFO:root:Encrypted alphabet: ['k', 'r', 'y', 'p', 't', 'o', 's', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'l', 'm', 'n', 'q', 'u', 'v', 'w', 'x', 'z']
+INFO:root:Encrypted message is: nabmb moltk dbgsv bep 
+INFO:root:User message created: I love Tiffany
+INFO:root:Message:  I love Tiffany, One_Time_Pad: 123, Keyword: tree Size y
+INFO:root:Encrypted alphabet: ['k', 'r', 'y', 'p', 't', 'o', 's', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'l', 'm', 'n', 'q', 'u', 'v', 'w', 'x', 'z']
+INFO:root:Encrypted message is: behut nbook gx 
+INFO:root:User message created: I love Tiffany
+INFO:root:Message:  I love Tiffany, One_Time_Pad: 12345, Keyword: tree Size n
+INFO:root:Encrypted alphabet: ['k', 'r', 'y', 'p', 't', 'o', 's', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'l', 'm', 'n', 'q', 'u', 'v', 'w', 'x', 'z']
+INFO:root:Encrypted message is: behutnbookgx
+INFO:root:User message created: behutnbookgx
+INFO:root:Message:  behutnbookgx, One_Time_Pad: 123, Keyword: tree Size n
+INFO:root:Encrypted alphabet: ['k', 'r', 'y', 'p', 't', 'o', 's', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'l', 'm', 'n', 'q', 'u', 'v', 'w', 'x', 'z']
+INFO:root:Decrypt alphabet = ['k', 'r', 'y', 'p', 't', 'o', 's', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'l', 'm', 'n', 'q', 'u', 'v', 'w', 'x', 'z']
+INFO:root:Message without spaces: ['b', 'e', 'h', 'u', 't', 'n', 'b', 'o', 'o', 'k', 'g', 'x']
+INFO:root:Decrypted message is: ilovetiffany
+INFO:root:User message created: behut nbook gx
+INFO:root:Message:  behut nbook gx, One_Time_Pad: 12345, Keyword: kryptos Size n
+INFO:root:Encrypted alphabet: ['k', 'r', 'y', 'p', 't', 'o', 's', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'l', 'm', 'n', 'q', 'u', 'v', 'w', 'x', 'z']
+INFO:root:Decrypt alphabet = ['k', 'r', 'y', 'p', 't', 'o', 's', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'l', 'm', 'n', 'q', 'u', 'v', 'w', 'x', 'z']
+INFO:root:Message without spaces: ['b', 'e', 'h', 'u', 't', 'n', 'b', 'o', 'o', 'k', 'g', 'x']
+INFO:root:Decrypted message is: ilovetiffany

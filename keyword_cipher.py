@@ -53,10 +53,15 @@ class Key(Cipher):
             self.encrpyted_message.append(get_code)
 
         join_message = "".join(self.encrpyted_message)
-        divide_message = divide_by_five(join_message)
 
-        logging.info("Encrypted message is: {}".format(divide_message))
-        return divide_message
+        if self.size.upper() == "Y":
+            divide_message = divide_by_five(join_message)
+            logging.info("Encrypted message is: {}".format(divide_message))
+            return divide_message
+
+        else:
+            logging.info("Encrypted message is: {}".format(join_message))
+            return join_message
 
     def decrypt(self):
         """decrypts a message by matching index values from the encrypted alphabet to a standard alphabet"""
