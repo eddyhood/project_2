@@ -15,7 +15,7 @@ class Cipher:
                 logging.warning("User tired to enter a message with special charicters.")
                 raise ValueError("Your message can only contain letters from the english alphabet.")
         self.message = message
-
+        #Get one-time pad information for each cipher
         one_time_pad = input("Please enter the pad number: ")
         keyword = input("What keyword would you like to use? ")
         size = input("Encryption in blocks of 5? Y/n")

@@ -92,9 +92,14 @@ class Alberti(Cipher):
                 get_coded_letter = start_spin[get_letter_index]
                 encrypt = self.encrpyted_message.append(get_coded_letter)
 
-        final_encryption = divide_by_five(self.encrpyted_message)
-        logging.info("Encrypted Message is: {}".format(final_encryption))
-        return final_encryption
+        if self.size.upper() == "Y":
+             final_encryption = divide_by_five(self.encrpyted_message)
+             logging.info("Encrypted Msg is: {}".format(final_encryption))
+             return final_encryption
+        else:
+            logging.info("Encrypted Msg is: {}".format("".join(self.encrpyted_message)))
+            return "".join(self.encrpyted_message)
+
 
     def decrypt(self):
         """Decrypts the message from user"""
@@ -112,6 +117,7 @@ class Alberti(Cipher):
                 message_with_digraphs.append(get_coded_letter)
 
         join_list = "".join(message_with_digraphs)
+        logging.info("Message with digraphs: {}".format(join_list))
 
         double_digraphs = {
                             "h":"ff",
@@ -124,9 +130,9 @@ class Alberti(Cipher):
 
         digraphs = double_digraphs.items()
 
-        for digraph in digraphs:
-            if digraph[1] in join_list:
-                join_list = join_list.replace(digraph[1],digraph[0])
+        for letter, code in digraphs:
+            if code in join_list:
+                join_list = join_list.replace(code, letter)
 
         logging.info("Message without digraphs: {}".format(join_list))
         return join_list

@@ -15,3 +15,143 @@ INFO:root:With digraph is ['a', 'd', 's', 'f', 'a']
 INFO:root:pointer index: 18, letter shift: i, shift index: 7, diff index: 11, spin: ['c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f']
 INFO:root:pointer index: 18, letter shift: r, shift index: 14, diff index: 4, spin: ['z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a']
 INFO:root:Encrypted Message is: Icygi Rz 
+INFO:root:User message created: Hello World
+INFO:root:Message:  Hello World, One_Time_Pad: 12345, Keyword: Treehouse Size y
+INFO:root:With digraph is ['f', 'f', 'e', 'l', 'l', 'o', 'x', 'x', 'o', 'r', 'l', 'd']
+INFO:root:pointer index: 18, letter shift: l, shift index: 8, diff index: 10, spin: ['f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's']
+INFO:root:pointer index: 18, letter shift: z, shift index: 19, diff index: -1, spin: ['r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm']
+INFO:root:pointer index: 18, letter shift: g, shift index: 6, diff index: 12, spin: ['h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c']
+INFO:root:pointer index: 18, letter shift: r, shift index: 14, diff index: 4, spin: ['z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a']
+INFO:root:Encrypted Message is: Lqqyk ZbfxG nrgRh b 
+INFO:root:User message created: Hello World
+INFO:root:Message:  Hello World, One_Time_Pad: 12345, Keyword: Treehouse Size n
+INFO:root:With digraph is ['f', 'f', 'e', 'l', 'l', 'o', 'x', 'x', 'o', 'r', 'l', 'd']
+INFO:root:pointer index: 18, letter shift: t, shift index: 16, diff index: 2, spin: ['g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l']
+INFO:root:pointer index: 18, letter shift: l, shift index: 8, diff index: 10, spin: ['f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's']
+INFO:root:pointer index: 18, letter shift: f, shift index: 5, diff index: 13, spin: ['t', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h']
+INFO:root:pointer index: 18, letter shift: p, shift index: 12, diff index: 6, spin: ['n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e']
+INFO:root:User message created: Hello World
+INFO:root:Message:  Hello World, One_Time_Pad: 12345, Keyword: Treehouse Size n
+INFO:root:With digraph is ['f', 'f', 'e', 'l', 'l', 'o', 'x', 'x', 'o', 'r', 'l', 'd']
+INFO:root:pointer index: 18, letter shift: i, shift index: 7, diff index: 11, spin: ['c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f']
+INFO:root:pointer index: 18, letter shift: z, shift index: 19, diff index: -1, spin: ['r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm']
+INFO:root:pointer index: 18, letter shift: i, shift index: 7, diff index: 11, spin: ['c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f']
+INFO:root:pointer index: 18, letter shift: e, shift index: 4, diff index: 14, spin: ['y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't']
+INFO:root:Encrypted Msg is: ['I', 'i', 'i', 'q', 'v', 'Z', ' ', 'b', 'f', 'x', 'I', ' ', 'e', 'm', 'l', 'E', ' ', 'm', 'x']
+INFO:root:User message created: Hello World
+INFO:root:Message:  Hello World, One_Time_Pad: 12345, Keyword: Treehouse Size n
+INFO:root:With digraph is ['f', 'f', 'e', 'l', 'l', 'o', 'x', 'x', 'o', 'r', 'l', 'd']
+INFO:root:pointer index: 18, letter shift: c, shift index: 2, diff index: 16, spin: ['i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q']
+INFO:root:pointer index: 18, letter shift: l, shift index: 8, diff index: 10, spin: ['f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's']
+INFO:root:pointer index: 18, letter shift: d, shift index: 3, diff index: 15, spin: ['q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y']
+INFO:root:pointer index: 18, letter shift: x, shift index: 18, diff index: 0, spin: ['d', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r']
+INFO:root:Encrypted Msg is: C&&pdL k&zD sgeX oa
+INFO:root:User message created: C&&pdL k&zD sgeX oa
+INFO:root:Message:  C&&pdL k&zD sgeX oa, One_Time_Pad: 12345, Keyword: Treehouse Size n
+INFO:root:With digraph is ['c', '&', '&', 'p', 'd', 'l', 'q', 'q', '&', 'z', 'd', 's', 'g', 'e', 'x', 'o', 'a']
+INFO:root:pointer index: 18, letter shift: q, shift index: 13, diff index: 5, spin: ['e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z']
+INFO:root:User message created: C&&pdL k&zD sgeX oa
+INFO:root:Message:  C&&pdL k&zD sgeX oa, One_Time_Pad: 123, Keyword: adfda Size y
+INFO:root:With digraph is ['c', '&', '&', 'p', 'd', 'l', 'q', 'q', '&', 'z', 'd', 's', 'g', 'e', 'x', 'o', 'a']
+INFO:root:pointer index: 18, letter shift: m, shift index: 9, diff index: 9, spin: ['s', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o']
+INFO:root:User message created: C&&pdL k&zD sgeX oa
+INFO:root:Message:  C&&pdL k&zD sgeX oa, One_Time_Pad: 123, Keyword: Tree Size n
+INFO:root:Remove spaces for decryption = ['C', '&', '&', 'p', 'd', 'L', 'k', '&', 'z', 'D', 's', 'g', 'e', 'X', 'o', 'a']
+INFO:root:Decrypted spin pointer index: 18, code: c,  code index: 2, diff_index16 spin['i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q']
+INFO:root:Decrypted spin pointer index: 18, code: l,  code index: 8, diff_index10 spin['f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's']
+INFO:root:Decrypted spin pointer index: 18, code: d,  code index: 3, diff_index15 spin['q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y']
+INFO:root:Decrypted spin pointer index: 18, code: x,  code index: 18, diff_index0 spin['d', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r']
+INFO:root:Message without digraphs: helloworld
+INFO:root:User message created: [A
+WARNING:root:User tired to enter a message with special charicters.
+INFO:root:User message created: C&&pdL k&zD sgeX oa
+INFO:root:Message:  C&&pdL k&zD sgeX oa, One_Time_Pad: 1234, Keyword: tree Size n
+INFO:root:Remove spaces for decryption = ['C', '&', '&', 'p', 'd', 'L', 'k', '&', 'z', 'D', 's', 'g', 'e', 'X', 'o', 'a']
+INFO:root:Decrypted spin pointer index: 18, code: c,  code index: 2, diff_index16 spin['i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q']
+INFO:root:Decrypted spin pointer index: 18, code: l,  code index: 8, diff_index10 spin['f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's']
+INFO:root:Decrypted spin pointer index: 18, code: d,  code index: 3, diff_index15 spin['q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y']
+INFO:root:Decrypted spin pointer index: 18, code: x,  code index: 18, diff_index0 spin['d', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r']
+INFO:root:Message without digraphs: helloworld
+INFO:root:User message created: ZbfxG nrgRh b
+INFO:root:Message:  ZbfxG nrgRh b, One_Time_Pad: 123, Keyword: tree Size n
+INFO:root:Remove spaces for decryption = ['Z', 'b', 'f', 'x', 'G', 'n', 'r', 'g', 'R', 'h', 'b']
+INFO:root:Decrypted spin pointer index: 18, code: z,  code index: 19, diff_index-1 spin['r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm']
+INFO:root:Decrypted spin pointer index: 18, code: g,  code index: 6, diff_index12 spin['h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c']
+INFO:root:Decrypted spin pointer index: 18, code: r,  code index: 14, diff_index4 spin['z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a']
+INFO:root:Message without digraphs: loworld
+INFO:root:User message created: Hello World
+INFO:root:Message:  Hello World, One_Time_Pad: 123, Keyword: Tree Size y
+INFO:root:With digraph is ['f', 'f', 'e', 'l', 'l', 'o', 'x', 'x', 'o', 'r', 'l', 'd']
+INFO:root:pointer index: 18, letter shift: x, shift index: 18, diff index: 0, spin: ['d', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r']
+INFO:root:pointer index: 18, letter shift: z, shift index: 19, diff index: -1, spin: ['r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm']
+INFO:root:pointer index: 18, letter shift: z, shift index: 19, diff index: -1, spin: ['r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm']
+INFO:root:pointer index: 18, letter shift: i, shift index: 7, diff index: 11, spin: ['c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f']
+INFO:root:Encrypted Msg is: XeezoZ bfxZ xftI vy
+INFO:root:User message created: XeezoZ bfxZ xftI vy
+INFO:root:Message:  XeezoZ bfxZ xftI vy, One_Time_Pad: 123, Keyword: tree Size y
+INFO:root:Remove spaces for decryption = ['X', 'e', 'e', 'z', 'o', 'Z', 'b', 'f', 'x', 'Z', 'x', 'f', 't', 'I', 'v', 'y']
+INFO:root:Decrypted spin pointer index: 18, code: x,  code index: 18, diff_index0 spin['d', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r']
+INFO:root:Decrypted spin pointer index: 18, code: z,  code index: 19, diff_index-1 spin['r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm']
+INFO:root:Decrypted spin pointer index: 18, code: z,  code index: 19, diff_index-1 spin['r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm']
+INFO:root:Decrypted spin pointer index: 18, code: i,  code index: 7, diff_index11 spin['c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f']
+INFO:root:Message without digraphs: helloworld
+INFO:root:User message created: I love tiffany
+INFO:root:Message:  I love tiffany, One_Time_Pad: 123, Keyword: tree Size y
+INFO:root:With digraph is ['i', 'l', 'o', 'v', 'e', 't', 'i', 'f', 'f', 'a', 'n', 'z', 'z']
+INFO:root:pointer index: 18, letter shift: a, shift index: 0, diff index: 18, spin: ['k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x']
+INFO:root:pointer index: 18, letter shift: a, shift index: 0, diff index: 18, spin: ['k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x']
+INFO:root:pointer index: 18, letter shift: s, shift index: 15, diff index: 3, spin: ['a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g']
+INFO:root:pointer index: 18, letter shift: t, shift index: 16, diff index: 2, spin: ['g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l']
+INFO:root:Encrypted Msg is: AlgecA mflS ooaT h&&
+INFO:root:User message created: AlgecA mflS ooaT h&&
+INFO:root:Message:  AlgecA mflS ooaT h&&, One_Time_Pad: 1234, Keyword: adsf Size n
+INFO:root:Remove spaces for decryption = ['A', 'l', 'g', 'e', 'c', 'A', 'm', 'f', 'l', 'S', 'o', 'o', 'a', 'T', 'h', '&', '&']
+INFO:root:Decrypted spin pointer index: 18, code: a,  code index: 0, diff_index18 spin['k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x']
+INFO:root:Decrypted spin pointer index: 18, code: a,  code index: 0, diff_index18 spin['k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x']
+INFO:root:Decrypted spin pointer index: 18, code: s,  code index: 15, diff_index3 spin['a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g']
+INFO:root:Decrypted spin pointer index: 18, code: t,  code index: 16, diff_index2 spin['g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l']
+INFO:root:Message without digraphs: ilovetihany
+INFO:root:User message created: AlgecA mflS ooaT h&&
+INFO:root:Message:  AlgecA mflS ooaT h&&, One_Time_Pad: 123, Keyword: tree Size n
+INFO:root:Remove spaces for decryption = ['A', 'l', 'g', 'e', 'c', 'A', 'm', 'f', 'l', 'S', 'o', 'o', 'a', 'T', 'h', '&', '&']
+INFO:root:Decrypted spin pointer index: 18, code: a,  code index: 0, diff_index18 spin['k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x']
+INFO:root:Decrypted spin pointer index: 18, code: a,  code index: 0, diff_index18 spin['k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x']
+INFO:root:Decrypted spin pointer index: 18, code: s,  code index: 15, diff_index3 spin['a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g']
+INFO:root:Decrypted spin pointer index: 18, code: t,  code index: 16, diff_index2 spin['g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l']
+INFO:root:User message created: AlgecA mflS ooaT h&&
+INFO:root:Message:  AlgecA mflS ooaT h&&, One_Time_Pad: 123, Keyword: tree Size n
+INFO:root:Remove spaces for decryption = ['A', 'l', 'g', 'e', 'c', 'A', 'm', 'f', 'l', 'S', 'o', 'o', 'a', 'T', 'h', '&', '&']
+INFO:root:Decrypted spin pointer index: 18, code: a,  code index: 0, diff_index18 spin['k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x']
+INFO:root:Decrypted spin pointer index: 18, code: a,  code index: 0, diff_index18 spin['k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x']
+INFO:root:Decrypted spin pointer index: 18, code: s,  code index: 15, diff_index3 spin['a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g']
+INFO:root:Decrypted spin pointer index: 18, code: t,  code index: 16, diff_index2 spin['g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l']
+INFO:root:Message with digraphs: ilovetiffanzz
+INFO:root:Message without digraphs: ilovetihany
+INFO:root:User message created: Eddy is awesome
+INFO:root:Message:  Eddy is awesome, One_Time_Pad: 123, Keyword: tree Size y
+INFO:root:With digraph is ['e', 'd', 'd', 'z', 'z', 'i', 's', 'a', 'x', 'x', 'e', 's', 'o', 'm', 'e']
+INFO:root:pointer index: 18, letter shift: r, shift index: 14, diff index: 4, spin: ['z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a']
+INFO:root:pointer index: 18, letter shift: x, shift index: 18, diff index: 0, spin: ['d', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r']
+INFO:root:pointer index: 18, letter shift: z, shift index: 19, diff index: -1, spin: ['r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm']
+INFO:root:pointer index: 18, letter shift: f, shift index: 5, diff index: 13, spin: ['t', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h']
+INFO:root:pointer index: 18, letter shift: l, shift index: 8, diff index: 10, spin: ['f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's']
+INFO:root:Encrypted Msg is: RobbrX vbqZ rxxF xzdL vy
+INFO:root:User message created: Eddy is awesome
+INFO:root:Message:  Eddy is awesome, One_Time_Pad: 123, Keyword: tree Size y
+INFO:root:With digraph is ['e', 'd', 'd', 'z', 'z', 'i', 's', 'a', 'x', 'x', 'e', 's', 'o', 'm', 'e']
+INFO:root:pointer index: 18, letter shift: n, shift index: 10, diff index: 8, spin: ['o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b']
+INFO:root:pointer index: 18, letter shift: x, shift index: 18, diff index: 0, spin: ['d', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r']
+INFO:root:pointer index: 18, letter shift: r, shift index: 14, diff index: 4, spin: ['z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a']
+INFO:root:pointer index: 18, letter shift: c, shift index: 2, diff index: 16, spin: ['i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q']
+INFO:root:pointer index: 18, letter shift: l, shift index: 8, diff index: 10, spin: ['f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's']
+INFO:root:Encrypted Msg is: Nhcca XvbqR zmmCp baLvy 
+INFO:root:User message created: Nhcca XvbqR zmmCp baLvy
+INFO:root:Message:  Nhcca XvbqR zmmCp baLvy, One_Time_Pad: 123, Keyword: tree Size n
+INFO:root:Remove spaces for decryption = ['N', 'h', 'c', 'c', 'a', 'X', 'v', 'b', 'q', 'R', 'z', 'm', 'm', 'C', 'p', 'b', 'a', 'L', 'v', 'y']
+INFO:root:Decrypted spin pointer index: 18, code: n,  code index: 10, diff_index8 spin['o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b']
+INFO:root:Decrypted spin pointer index: 18, code: x,  code index: 18, diff_index0 spin['d', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r']
+INFO:root:Decrypted spin pointer index: 18, code: r,  code index: 14, diff_index4 spin['z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a']
+INFO:root:Decrypted spin pointer index: 18, code: c,  code index: 2, diff_index16 spin['i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's', 'f', 'c', 'h', 't', 'y', 'q']
+INFO:root:Decrypted spin pointer index: 18, code: l,  code index: 8, diff_index10 spin['f', 'c', 'h', 't', 'y', 'q', 'i', 'x', 'k', 'v', 'p', '&', 'm', 'r', 'd', 'l', 'g', 'a', 'z', 'e', 'n', 'b', 'o', 's']
+INFO:root:Message with digraphs: eddzzisaxxesome
+INFO:root:Message without digraphs: eddyisawesome

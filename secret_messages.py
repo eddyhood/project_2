@@ -72,10 +72,9 @@ def launch_menu():
         display_ciphers()
         choice = int(input("Type number 1 to 3 to pick a cipher for decryption: "))
         if choice >= 1 and choice <=3:
-            call_encrypt(choice)
+            call_decrypt(choice)
         else:
             raise ValueError("Please type 1, 2, or 3.")
-        call_decrypt(choice)
 
     elif goal.upper() == "Q":
         clear_screen()
