@@ -70,9 +70,15 @@ class Bifid(Cipher):
                     code_letters.append(letter)
 
         join_letters = "".join(code_letters)
-        divide_message = divide_by_five(join_letters)
-        logging.info("Code is: {}".format(divide_message))
-        return divide_message
+
+        if self.size.upper() == "Y":
+            divide_message = divide_by_five(join_letters)
+            logging.info("Code is: {}".format(divide_message))
+            return divide_message
+        else:
+            logging.info("Code is: {}".format(join_letters))
+            return join_letters
+
 
     def decrypt(self):
         """Decrypts the user's secret message"""

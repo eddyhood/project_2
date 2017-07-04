@@ -1,4 +1,8 @@
+import os
 
+def clear_screen():
+    """Clears screen to make interface more user-friendly"""
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 def divide_by_five(final_message):
     #remove random spacing from message
@@ -54,5 +58,3 @@ def remove_encryption_spaces(message):
         else:
             without_spaces.append(letter)
     return without_spaces
-
-

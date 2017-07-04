@@ -17,8 +17,8 @@ class Cipher:
                 raise ValueError("Your message can only contain letters from the english alphabet.")
         self.message = message
         #Get one-time pad information for each cipher
-        one_time_pad = input("Please enter the pad number: ")
-        keyword = input("What keyword would you like to use? ")
+        one_time_pad = input("Please enter the one-time pad number: ")
+        keyword = input("Enter a keyword that is shorter than your pad: ")
         size = input("Encryption in blocks of 5? Y/n")
         self.one_time_pad = one_time_pad
         self.keyword = keyword

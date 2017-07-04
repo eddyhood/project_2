@@ -37,9 +37,4 @@ def create_pad(one_time_pad, keyword):
                 get_encrypted_letters.append(character)
     final_encryption = "".join(get_encrypted_letters)
     logging.info("Final encryption is {}".format(final_encryption))
-
-
-
-
-
-
+    return final_encryption

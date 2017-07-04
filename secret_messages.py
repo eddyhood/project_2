@@ -3,11 +3,17 @@ import os
 from alberti import Alberti
 from keyword_cipher import Key
 from bifid import Bifid
+from helper_functions import clear_screen
 
 
-def clear_screen():
-    """Clears screen to make interface more user-friendly"""
-    os.system('cls' if os.name == 'nt' else 'clear')
+def use_again():
+    choice = input("\nWould you like do use Hood's Cipher System again?  Y/n")
+    if choice.upper() == "Y":
+        launch_menu()
+    else:
+        clear_screen()
+        print("Thanks for using Hood's Cipher System")
+        sys.exit()
 
 
 def call_encrypt(choice):
@@ -16,16 +22,19 @@ def call_encrypt(choice):
         message = Alberti.create_alberti()
         encryption = Alberti.encrypt(message)
         print("Your encrypted message is {}".format(encryption))
+        use_again()
 
     elif choice == 2:
         message = Key.create_keyword()
         encryption = Key.encrypt(message)
         print("Your encrypted message is {}".format(encryption))
+        use_again()
 
     elif choice == 3:
         message = Bifid.create_bifid()
         encryption = Bifid.encrypt(message)
         print("Your encrypted message is {}".format(encryption))
+        use_again()
 
 
 def call_decrypt(choice):
@@ -34,16 +43,19 @@ def call_decrypt(choice):
         message = Alberti.create_alberti()
         decryption = Alberti.decrypt(message)
         print("Your decrypted message is {}".format(decryption))
+        use_again()
 
     elif choice == 2:
         message = Key.create_keyword()
         decryption = Key.decrypt(message)
         print("Your decrypted message is {}".format(decryption))
+        use_again()
 
     elif choice == 3:
         message = Bifid.create_bifid()
         decryption = Bifid.decrypt(message)
         print("Your decrypted message is {}".format(decryption))
+        use_again()
 
 
 def display_ciphers():
@@ -61,7 +73,7 @@ def launch_menu():
     if goal.upper() == "E":
         clear_screen()
         display_ciphers()
-        choice = int(input("Type number 1 to 3 to pick a cipher for encryption: "))
+        choice = int(input("Type number 1, 2, or 3 to pick a cipher for encryption: "))
         if choice >= 1 and choice <=3:
             call_encrypt(choice)
         else:
@@ -70,7 +82,7 @@ def launch_menu():
     elif goal.upper() == "D":
         clear_screen()
         display_ciphers()
-        choice = int(input("Type number 1 to 3 to pick a cipher for decryption: "))
+        choice = int(input("Type number 1, 2, or 3 to pick a cipher for decryption: "))
         if choice >= 1 and choice <=3:
             call_decrypt(choice)
         else:
